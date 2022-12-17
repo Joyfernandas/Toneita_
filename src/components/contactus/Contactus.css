@@ -1,0 +1,42 @@
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:auto;
+    max-width:100%;
+    position:absolute;
+}
+/* .maptext{
+    position: absolute;
+    text-align: end;
+    
+} */
+.map{
+
+   margin-top: 110px;
+}
+.btn-warning{
+    box-sizing: border-box;
+    width: 296px;
+    background-color: white;
+    color: #ffc107;
+   margin-top: 25px;
+    margin-right: 144px;
+    margin-left: -11px;
+    max-width: 40%;
+    block-size: 36px;
+    font-weight: bold;
+    align-items: center;
+    display: block
+    
+
+}
+.mapiframe{
+  max-width: 300px;
+height: 300px;
+}

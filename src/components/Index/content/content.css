@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+body{
+    margin:0px;
+    padding: 0px;
+    font-family:'Nunito';
+    /* background-color: #ffffff; */
+}
+
+.sbutton{
+    left: 700px;
+    background: #FF8E15;
+    border-radius: 12px;
+    width: 203px;
+    color: white;
+    font-weight: 800;
+    }
+    .fw-bolder{
+        margin-bottom: 10px;
+    }
+    .contentdiv{
+        margin-top: 100px;
+    }
+    

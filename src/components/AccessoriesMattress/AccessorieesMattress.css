@@ -1,0 +1,86 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card1{
+    height: 390px;
+    width: 280px;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+
+.card1 > h3 {
+    color: #313131;
+    font-family: 'Nunito';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 21px;
+    
+}
+
+.card1 > button {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #DBDBDB;
+    border-radius: 30px;
+    padding: 10px 100px;
+    color: #3F3F3F;
+    cursor: pointer;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    
+}
+
+.card1 > img {
+   width: 280px;
+   height: 270px; 
+   display: flex;
+   background-size: cover;
+   align-items: center;
+   flex-direction: column;
+}
+
+
+#img1 {
+    background: #D2BBA0;
+    
+}
+#img1 > img {
+    display: flex;
+    align-items: center;
+}
+#img2 {
+    background: #F2EFC7;
+    
+}
+#img3 {
+     background: #FFE0E0;
+}
+#img4 {
+    background: #FFEEE2;
+
+}
+.accmat{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-style: 'Nunito';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 24px;
+    color: #4B4B4B;
+    padding: 49px;
+}
+
+

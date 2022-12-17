@@ -1,0 +1,9 @@
+.view{
+    border: 1px solid #D5DAE4;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
+border-radius: 12px;
+box-sizing: border-box;
+width: 100%;
+height: auto;
+margin: 2%;
+}

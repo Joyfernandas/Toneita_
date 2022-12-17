@@ -1,0 +1,121 @@
+.form{
+    width: 473px;
+height: auto;
+border: 1px solid #C5C5C5;
+border-radius: 6px;
+padding: 36px 24px;
+gap: 24px;
+}
+@media screen and (max-width:600px) {
+    .form {
+        width: 100%;
+    }
+  .form .detailform{
+        width: 100%;
+        padding: 0%;
+    }
+    .form .addressbtn{
+        width: 100%;
+        padding: 0%;
+        align-items: center;
+        display:inline-grid;
+    }
+  
+    }
+.nameof{
+    font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.06em;
+}
+.detailform{
+    border: 1px solid #AEAEAE;
+border-radius: 4px;
+width: 424px;
+height: 48px;
+padding: 12px 360px 12px 16px;
+gap: 10px;
+display: flex;
+}
+.firstcon{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.drlist{
+    display: flex;
+    gap: 20px;
+}
+.droplist{
+    border: 0.7px solid #7A7A7A;
+border-radius: 6px;
+width: 99.5px;
+height: 32px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 8px 6px 16px;
+gap: 8px;
+}
+.icon{
+    display: flex;
+    gap: 22px;
+}
+.addressbtn{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 6px 174px;
+gap: 10px;
+width: 425px;
+height: 36px;
+background: #FF8E15;
+border-radius: 20px;
+border: none;
+color: white;
+font-weight: 500;
+}
+.PriceDetailsdet{
+    width: 314px;
+height: 216px;
+margin: 0%;
+line-height: 32pxx;
+}
+.pricecontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.totalprice{
+    display: flex;
+    gap: 150px;
+}
+.tottxt{
+    font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #000000;
+}
+.free{
+    font-weight: 400;
+font-size: 14px;
+line-height: 31px;
+letter-spacing: -0.01em;
+color: #4FB500;
+}
+.commondi{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+    gap: 63px;
+    padding: 23px 10px;
+    margin: 6%;
+
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+body{
+    margin:0px;
+    padding: 0px;
+    font-family:'Nunito';
+    /* background-color: #ffffff; */
+}
+
+.text-lg-start{
+
+    margin-top: 45px;
+}
+.toniet{
+    font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+/* or 100% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+.text-uppercase{
+    font-weight: 700;
+font-size: 15px;
+line-height: 52px;
+letter-spacing: -0.01em;
+color: #C7C7C7;
+}
+.text-reset{
+    font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: -0.01em;
+color: #AEAEAE;
+}
+.salesoch{
+    font-weight: 600;
+font-size: 16px;
+line-height: 31px;
+color: #FFFFFF;
+
+}
+.colofoo{
+    background: #37383C;
+}
+.textcenter{
+    background: #22242A;
+}
+.margincorrection{
+    margin-top: 126px;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+body{
+    margin:0px;
+    padding: 0px;
+    font-family:'Nunito';
+    /* background-color: #ffffff; */
+}
+
+#contenttop{
+    margin-bottom: -20px;
+}
+.arrowicon{
+    max-width: 30px;
+}
+.ourproducts{
+  
+    width: 100%;
+    padding: 20px 40px;
+   
+
+}
+.prod{
+    background: rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(70px);
+    max-width: 100%;
+margin-top: 17px;
+ 
+    
+}
+*{
+   font-family: 'Nunito';
+}
+#productsrow{
+    flex-direction: row;
+}
+.prodcard{
+    width: 339px;
+    height: 302px;
+    flex-direction: row;
+}
+.cardstyles{
+    font-size: x-large;
+    justify-content: flex-end;
+  
+}
+.divprod{
+    background-color: tomato;
+    width: 100px;
+    height: 300px;
+}
+.div{
+    width: 349px;
+    height: 287px;
+    display: inline-grid;
+    align-items: end;
+    max-width: 100%;
+
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+ font-size: larger;
+ height: 49px;
+ padding: 15px 10px;
+vertical-align: middle;
+align-items: center;
+background: rgba(255, 255, 255, 0.24);
+backdrop-filter: blur(30px)
+
+}
+.txttitle{
+    font-weight: 700;
+    font-size: larger;
+    color: white ;
+}

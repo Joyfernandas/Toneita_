@@ -1,0 +1,64 @@
+.matresscardcontainer img{
+    width: 100%;
+    border-radius: 9px 9px 0px 0px;
+    object-fit: fill;
+   
+}
+.matresscardcontainer{
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 315px;
+    height: auto;
+    box-shadow: 0px 0px 2px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .1s ease-in-out;
+	transition: .9s ease-in-out;
+
+}
+
+
+
+.matresscardcontainer:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    -webkit-transform: scale(1.0);
+	transform: scale(1.1);
+}
+.matressContent{
+    padding: 8px;
+    display: flex;
+    height: 184px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: #FFFFFF;
+}
+
+.matressleft-content{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-weight: 800;
+
+}
+
+.matressright-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    font-size: larger;
+    font-weight: bolder;
+}
+#mattxt{
+    font-weight: 700;
+    font-size: 20px;
+}
+#offertxt{
+font-weight: 800;
+color: #0D0654;
+font-size: larger;
+}
+.price{
+    font-weight: bolder;
+}

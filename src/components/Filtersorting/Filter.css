@@ -1,0 +1,10 @@
+.filterdropdown{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Nunito';
+    gap: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #4F4F4F;
+    flex: none;
+}

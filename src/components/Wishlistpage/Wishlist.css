@@ -1,0 +1,99 @@
+.fcard{
+    width: 250px;
+height: 419px;
+display: flex;
+align-items: center;
+}
+.wish{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   
+}
+.heartfill{
+color: red;
+font-size: larger;
+}
+.wishimg{
+    border-radius: 6px 6px 0px 0px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+width: 250px;
+height: 277px;
+}
+.wishtxt{
+    font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 80% */
+color: #000000;
+}
+.fimg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.wishoffer{
+    background-color:  #37383C;
+    font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+height: 28px;
+width: 250px;
+align-items: center;
+}
+.wishprice{
+    background:  #595959;
+    width:250px;
+    height: 68px;
+    font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height, or 100% */
+color: #FFFFFF;
+margin-top: -5px;
+align-items: center;
+display:flex ;
+}
+.wishdel{
+    font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+color: #3C4043;
+}
+.wishcartbtn{
+    background: #FF8E15;
+border-radius: 0px 0px 8px 8px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 11px 81px;
+gap: 10px;
+margin-top: -5px;
+border: none;
+color: white;
+font-size: larger;
+}
+.totalcard{
+    display: flex;
+    flex-direction: row;
+  
+}
+.wcardtotal{
+    display: flex;
+    flex-direction: row;
+   gap: 20px;
+   padding: 20px 10px;
+}
+@media screen and (max-width:600px) {
+    .wcardtotal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px 10px;
+    }
+    
+}

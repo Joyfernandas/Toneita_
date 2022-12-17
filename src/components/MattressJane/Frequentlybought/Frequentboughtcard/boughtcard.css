@@ -1,0 +1,38 @@
+.squadiv{
+    height: auto;
+    width: fit-content;
+    border-radius: 8px;
+    flex-direction: row;
+    
+}
+#bodyboughtcard{
+    height: auto;
+}
+.offerbtn{
+    border: none;
+    background: #FFF7F0;
+    border-radius: 8px
+}
+#boughtcardhead{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 31px;
+    padding: 0px 10px;
+}
+.selleimg{
+    border-radius: 8px 8px 0px 0px;
+    height: 250px;
+width: 280px;
+
+}
+.check{
+    position: absolute;
+    left: 254px;
+    z-index: 1;
+    border: 2px solid #FFFFFF;
+border-radius: 4px;
+box-sizing: border-box;
+width: 20px;
+height: 20px;
+right: 4.64%;
+}

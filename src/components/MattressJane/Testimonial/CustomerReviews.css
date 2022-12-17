@@ -1,0 +1,101 @@
+.reviewcustomer{
+    background: #FFFFFF;
+    border: 1px solid #D5DAE4;
+    border-radius: 8px;
+    width: 400px;
+    height: 240px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 11px 33px;
+}
+@media screen and (max-width: 600px) {
+    .reviewcustomer {
+        width: 100vw;
+        height: auto;
+    }
+    .dateandstar{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        gap: 22px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .eclipse{
+        width: 22px;
+        height: 22px;
+        }
+        .eclipsecontent{
+            display: flex;
+            gap: 2px;
+            flex-direction: row;
+            align-content: center;
+            align-items: center;
+        }
+        .revtxt{
+            font-weight: 400;
+            text-align: justify;
+            font-size: 1px;
+            line-height: 8px;
+            color: #232323;
+        }
+        .janvi{
+            font-weight: 600;
+        font-size: 6px;
+        line-height: 8px;
+        }
+        .tmedte{
+            font-weight: 600;
+            font-size: 6.5px;
+            line-height: 2px;
+            text-align: justify;
+            color: #717171;
+        }
+
+  }
+
+
+
+.eclipse{
+width: 44px;
+height: 44px;
+}
+.dateandstar{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 114px;
+    justify-content: space-between;
+    align-items: center;
+}
+.eclipsecontent{
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+.star{
+    color: #E9C300;
+border-radius: 0.5px;
+}
+.revtxt{
+    font-weight: 400;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 26px;
+    color: #232323;
+}
+.janvi{
+    font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+}
+.tmedte{
+    font-weight: 600;
+    font-size: 12.5px;
+    line-height: 20px;
+    text-align: justify;
+    color: #717171;
+}

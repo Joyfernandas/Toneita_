@@ -1,0 +1,175 @@
+@media only screen and (max-width: 600px) {
+    .allimgjan {
+     flex-direction: row;
+    }
+    .mainjane{
+        flex-direction: column;
+   
+    }
+    .exjane{
+        max-width: 400px;
+        height: 267px;
+      }
+      .janedivmattress{
+        max-width: 400px;
+      }
+
+  }
+ 
+
+.spectitle{
+  
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    color: #1D1D1D;
+}
+.spectitle1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 31px;
+    /* or 194% */
+    
+    letter-spacing: -0.01em;
+    
+    color: #1D1D1D;
+}
+
+.blurtitle{
+    width: 732px;
+height: 500px;
+border-radius: 12px;
+/* Note: backdrop-filter has minimal browser support */
+   
+}
+.describtion{
+    background: #FFF0D2;
+    border: 1px solid #FFE8CF;
+    border-radius: 12px;
+    width: 460px;
+height: 141px;
+}
+
+.blurtitle{
+background-image: url('https://images.unsplash.com/photo-1640746942093-cec8e647596d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cG9seWVzdGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+display: flex;
+    justify-content: flex-end;
+    background-size: cover;
+}
+.contentspec{
+    background: rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(121px);
+    color: white;
+    padding: 0px 30px;
+    max-width: 350px;
+    height: 500px;
+}
+@media only screen and (max-width: 600px) {
+    .contentspec {
+     max-width: 280px;
+    }
+    .contentspec .maincontent{
+        font-size: 17px;
+    line-height: 25px;
+    }
+    .describ{
+        margin-top: 30px;
+    }
+
+  }
+
+
+.bulding{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 35px;
+}
+.maincontent{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 36px;
+}
+.specmain{
+    width: 440px;
+    height: 440px;
+    background: #F8F9FA;
+    border: 1px solid #D2D2D2;
+    border-radius: 12px;
+    padding: 14px 8px;
+   
+}
+.spectxt{
+    padding: 18px 12px;
+    font-weight: 700;
+font-size: 28px;
+line-height: 31px;
+/* identical to box height, or 111% */
+
+letter-spacing: -0.01em;
+
+color: #3F3F3F;
+
+}
+.alignspeci{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 1px;
+}
+.alignspec{
+    padding: 14px 12px ;
+}
+.describ{
+    padding: 10px 19px;
+    width: 460px;
+    height: 141px;
+    left: 48px;
+    /* top: 1329px; */
+    background: #FFF0D2;
+    border: 1px solid #FFE8CF;
+    border-radius: 12px;
+ 
+}
+@media only screen and (max-width: 600px) {
+    .describ {
+     width: auto;
+    }
+  }
+.mainsp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+.destxt{
+    font-weight: 700;
+font-size: 16px;
+line-height: 31px;
+/* or 194% */
+
+letter-spacing: -0.01em;
+
+color: #2F2F2F;
+}
+.descontent{
+    font-weight: 700;
+font-size: 22px;
+line-height: 31px;
+/* identical to box height, or 141% */
+
+letter-spacing: -0.01em;
+
+color: #2F2F2F;
+}
+.parent-describ{
+    padding: 0px 10px;
+   margin-top: -22px;
+}   

@@ -1,0 +1,23 @@
+.abimg{
+    background-image: url('https://images.pexels.com/photos/11604964/pexels-photo-11604964.jpeg?auto=compress&cs=tinysrgb&w=600');
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+   margin: 2%;
+}
+.totalblurimg{
+    display: flex;
+    padding: 10px 10px;
+    flex-direction: column;
+}
+.aboutus{
+    font-weight: 500;
+font-size: 32px;
+line-height: 31px;
+letter-spacing: -0.01em;
+color: #000000;
+margin: 2%;
+padding: 10px 10px;
+
+}

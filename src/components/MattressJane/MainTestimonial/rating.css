@@ -1,0 +1,138 @@
+.containerrev{
+    background: #FFF6F2;
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    padding: 56px 28px;
+
+}
+@media only screen and (max-width: 600px) {
+    .containerrev {
+        background: #FFF6F2;
+        border-radius: 8px;
+        width: 100%;
+        height: auto;
+        padding: 26px 12px;
+     
+    }
+    .sliderrate{
+        width: 100vw;
+        height: fit-content; 
+     padding: 20px 10px; 
+    }
+
+
+    .headerdiv{
+        display: flex;
+        flex-direction: column;
+        /* gap: 412px; */
+        align-content: center;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .feedbackbtn{
+        background: #FF8E15;
+    border-radius: 20px;
+    border: none;
+    color: #FFF6F2;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 137px;
+    height: 22px;
+    }
+  }
+  @media screen and (min-width:600px) {
+    .mainrating{
+        margin-right: 890px;
+    }
+    
+  }
+  
+
+
+.headerdiv{
+    display: flex;
+    flex-direction: row;
+    /* gap: 412px; */
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Custit{
+    font-weight: 600;
+font-size: 34px;
+line-height: 26px;
+/* or 76% */
+text-align: center;
+letter-spacing: -0.01em;
+color: #000000;
+}
+.feedbackbtn{
+    background: #FF8E15;
+border-radius: 20px;
+border: none;
+color: #FFF6F2;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+width: 237px;
+height: 44px;
+margin-top: 28px;
+}
+.percent,.percent2,.percent3,.percent4{
+    background: #FF8E15;
+border-radius: 8px;
+width: 84px;
+height: 6px;
+color: #FFF6F2;
+}
+.ratepercent{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 4px;
+}
+.starandnum{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7px;
+    color: #FFF6F2;
+    background: #FF8E15;
+border-radius: 4px;
+width: 39px;
+height: 24px;
+}
+.mainrating{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 18px;
+}
+.sliderrate{
+    width: 100%;
+    height: fit-content; 
+ padding: 20px 10px; 
+}
+.sliderwithrate{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+

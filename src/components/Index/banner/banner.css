@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+body{
+    margin:0px;
+    padding: 0px;
+    font-family:'Nunito';
+  
+}
+
+.products {
+    background-color: #FF8E15;
+    color: white;
+
+}
+.afterbannerSvg{
+    font-size:x-large;
+}
+.viewoff{
+    display: none;
+}
+.hover:hover .viewoff{
+    display: block;
+    position:absolute;
+    
+  /* background-color: green; */
+}
+.d-inline-flex{
+    margin-left: 58px;
+}
+.row-RowClass{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+   
+}
+.carousel-indicators .active{
+    background-color:white !important;
+  
+        width: 1px;
+        height: 0px;
+        margin: 0;
+}
+.d-inline-flex{
+    gap: 8px;
+    align-items: center;
+}

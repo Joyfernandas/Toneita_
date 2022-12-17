@@ -1,0 +1,64 @@
+.banner-main{
+    width: 590px;
+    position: absolute;
+    z-index: 1;
+    left: 29%;
+    top: 109px;
+}
+
+.slide-animation-cus{
+    animation: mymove 10s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+#explorebtn{
+   
+    backdrop-filter: blur(116px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 11px;
+}
+
+@keyframes mymove {
+    from {left : 0px;}
+    to {right: 500px;}
+    
+  }
+
+.hiddenatr{
+    display: none;
+}
+
+.bannercard{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 210px;
+    height: 199px;
+    /* background-image: url("https://images.unsplash.com/photo-1570786240066-c0d753711cfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGlsbG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"); */
+    background-size: cover;
+    object-fit: contain;
+    column-count: 4;
+    
+}
+.dv-conta{
+    font-size: larger;
+   flex-direction: column;
+    backdrop-filter: blur(20px);
+    width: 100%;
+    color: white;
+    font-style: 'Nunito';
+}
+.na,.cena{
+    display: inline-flex;
+}
+.viewoff{
+    display: block;
+}
+
+.carousel-inner:hover.viewoff{
+    display: block;
+    
+}
+

@@ -1,0 +1,128 @@
+
+.freequentboughttogether{
+    border: 1px solid #D5DAE4;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
+    border-radius: 12px;
+    
+    height: auto;
+   
+    margin: 2%;
+}
+.tibo{
+    font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+
+padding: 16px 9px;
+letter-spacing: -0.01em;
+
+color: #363636;
+}
+.titlefrequent{
+    padding: 10px 10px;
+}
+.positionbought{
+    display: flex;
+   gap: 87px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2%;
+    align-content: center;
+    justify-content: center;
+
+}
+.buynew{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 19px;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.img-cartitems{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.ftxt{
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+.iconfree{
+    
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.offreequent{
+    color: #FF8E15;
+    font-weight: 700;
+font-size: 22px;
+}
+.offreequent1{
+    font-weight: 700;
+    font-size: 22px;
+    color: #646464;
+}
+#boughtimg{
+    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.1));
+border-radius: 4px;
+flex-wrap: wrap;
+}
+.item{
+    font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+color: rgba(0, 0, 0, 0.5);
+}
+.pricelists{
+    font-style: normal;
+font-weight: 400;
+font-size: 22px;
+color: #393939;
+}
+.add2card{
+    font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 20px;
+color: #393939;
+border: none;
+}
+.add2{
+  
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 77px;
+gap: 10px;
+background: #A8CF45;
+border-radius: 8px;
+width: 371px;
+height: 55px;
+font-size: 20px;
+line-height: 31px;
+color: #FFFFFF;
+border: none;
+}
+.totaldivcart{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    align-content: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:600px) {
+        .freequentboughttogether{
+            margin-top: 37px;
+        }
+}

@@ -1,0 +1,9 @@
+#hovercard{
+    opacity: 0;
+}
+#hover{
+   opacity: 0;
+}
+#hcard:hover{
+    background-color: blue;
+}
