@@ -6,14 +6,14 @@ import Square from '../../carouselseller/Square'
 import Boughtcard from './Frequentboughtcard/Boughtcard';
 const Data=[{
     id:1, 
-    img:("../images/pill1.png"),
+    img:("assets/images/pill1.png"),
     heading:'Tonietas Pillows',
     rating:4.4,
   price:('₹741')
 },
 {
     id:2, 
-    img:("../images/pill2.png"),
+    img:("assets/images/pill2.png"),
     heading:'Tonietas Pillows',
     rating:4.4,
     price:('₹741')

@@ -1,7 +1,5 @@
 import "../Index/Index.css"
-
 import { BsTelephoneFill } from "react-icons/bs";
-
 import Banner from './banner/Banner';
 import { Button } from '@chakra-ui/react'
 import Cantactus from '../contactus/Cantactus';
@@ -12,7 +10,6 @@ import Navbar from '../navbar/Navbar'
 import Ourproducts from './Ourproducts/Ourproducts';
 import React from 'react'
 import Sellerscart from './Sellerscart';
-import Bannercard from "../Bannercard/Bannercard";
 import FloatingComponent from "../FloatingComponent/FloatingComponent";
 import { Data } from "./Ourproducts/Prodcard";
 
@@ -24,7 +21,7 @@ function Index() {
      
   <Navbar/>
       <main className="my-2 ">
-        <Bannercard />
+        
         <Banner />
 
 
@@ -36,7 +33,7 @@ function Index() {
               <BsTelephoneFill></BsTelephoneFill>
             </Button>
               {' '}
-              <img src="../images/whatsapp.gif" alt="" width={'40px'} />
+              <img src="assets/images/whatsapp.gif" alt="" width={'40px'} />
             </p>
 
           </div>

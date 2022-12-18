@@ -10,24 +10,24 @@ function Jane() {
 <div  className='img-margin'>
 <div  className='allimgjan'>
         <div className='janediv' > 
-    <img src="../images/mattressjane.png" alt="" />
+    <img src="assets/images/mattressjane.png" alt="" class='img-fluid'/>
     </div>
     <div className='janediv'>
-    <img src="../images/mattressjane.png" alt="" />
+    <img src="assets/images/mattressjane.png" alt=""  class='img-fluid' />
     </div>
     <div className='janediv'>
-    <img src="../images/mattressjane.png" alt="" />
+    <img src="assets/images/mattressjane.png" alt="" class='img-fluid' />
     </div>
     <div className='janediv'>
-    <img src="../images/mattressjane.png" alt="" />
+    <img src="assets/images/mattressjane.png" alt=""  class='img-fluid' />
     </div>
     <div >
-    <img src="../images/mattressjane.png" alt="" />
+    <img src="assets/images/mattressjane.png" alt=""  class='img-fluid' />
     </div>
     </div>
     <div >
     <div className='janedivmattress'>
-     <img src="../images/mattressmain.png" alt="" className='exjane' />
+     <img src="assets/images/mattressmain.png" alt="" className='img-fluid exjane' />
      <div className='btnjane'><button type='button' className='jbtn1'>Add to Card</button>
    <Link to='/pricedetails'> <button type='button' className='jbtn'>Shop Now</button></Link>
    </div>
@@ -52,7 +52,7 @@ function Jane() {
 <div className='fabricdiv'> <h3 className='poltxt'>100%Spun polyster</h3>
  
  <div>
-  {/* <h5><IoLocationOutline size={'10px'} ></IoLocationOutline></h5> */}
+ 
  <h5><input type="text" placeholder='Enter your Pincode' /></h5>
  
  </div>

@@ -11,7 +11,7 @@ function CustomerReviews(item) {
    {/* <Rating/> */}
    <div className='cusmain'>
     <div className='reviewcustomer'>
-        <div className='eclipsecontent'><img src="../images/Ellipse 12.png" alt="" className='eclipse' />
+        <div className='eclipsecontent'><img src="assets/images/Ellipse 12.png" alt="" className='eclipse' />
        <div> <h3 className='janvi'>{item.cusname}</h3>
         <p>Customer</p></div>
         </div>

@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Data = [
   {
     id: 1,
-    img: "../images/orderimg.png",
+    img: "assets/images/orderimg.png",
     title: "Manchester",
     title2: "the premium segment of toneita",
     price: "35,6000",
@@ -20,7 +20,7 @@ const Data = [
   },
   {
       id: 2,
-      img:'../images/orderimg4.png',
+      img:'assets/images/orderimg4.png',
       title: 'Manchester',
       title2: 'the premium segment of toneita',
       price: '35,6000',
@@ -31,7 +31,7 @@ const Data = [
   },
   {
       id: 3,
-      img:'../images/orderimg3.png',
+      img:'assets/images/orderimg3.png',
       title: 'Manchester',
       title2: 'the premium segment of toneita',
       price: '35,6000',
@@ -50,7 +50,7 @@ function MyOrder(item) {
       <div>
         <div className="orderpage">
           <h3 className="myordertxt">My Order</h3>
-          <img src="../images/shopping-bag.png" alt="" />
+          <img src="assets/images/shopping-bag.png" alt="" />
         </div>
         <div></div>
       </div>

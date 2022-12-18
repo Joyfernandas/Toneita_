@@ -3,8 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import * as fontas from "react-icons/fa";
-
-
 import {
   MDBContainer,
   MDBRow,
@@ -16,56 +14,56 @@ import { useState } from "react";
 const Data=[
   {
       id:1, 
-      img:("../images/sellerimg (1).png"),
+      img:("assets/images/sellerimg (1).png"),
       heading:'Mattress',
       rating:4.4,
       price:1745,
   },
   {
       id:2, 
-      img:("../images/sellerimg (2).png"),
+      img:("assets/images/sellerimg (2).png"),
       heading:'Mattress',
       rating:4.4,
       price:1745,
   },
   {
       id:3, 
-      img:("../images/sellerimg (3).png"),
+      img:("assets/images/sellerimg (3).png"),
       heading:'Mattress',
       rating:4.4,
       price:1745,
   },
   {
       id:4, 
-      img:("../images/sellerimg (4).png"),
+      img:("assets/images/sellerimg (4).png"),
       heading:'Mattress',
       rating:4.4,
       price:1745,
   },
   {
     id:5, 
-    img:("../images/sellerimg (1).png"),
+    img:("assets/images/sellerimg (1).png"),
     heading:'Mattress',
     rating:4.4,
     price:1745,
 },
 {
   id:6, 
-  img:("../images/sellerimg (2).png"),
+  img:("assets/images/sellerimg (2).png"),
   heading:'Mattress',
   rating:4.4,
   price:1745,
 },
 {
   id:7, 
-  img:("../images/sellerimg (3).png"),
+  img:("assets/images/sellerimg (3).png"),
   heading:'Mattress',
   rating:4.4,
   price:1745,
 },
 {
   id:8, 
-  img:("../images/sellerimg (4).png"),
+  img:("assets/images/sellerimg (4).png"),
   heading:'Mattress',
   rating:4.4,
   price:1745,

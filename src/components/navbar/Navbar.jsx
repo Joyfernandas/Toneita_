@@ -32,7 +32,7 @@ function Navbar() {
         style={{ height: "85px" }}
       >
         <a class="navbar-brand" href="/">
-          <img src="../Images/image1.png" alt="" />
+          <img src="assets/Images/image1.png" alt="" />
         </a>
         <button
           class="navbar-toggler"

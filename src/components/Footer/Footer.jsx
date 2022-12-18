@@ -152,7 +152,7 @@ export default function Footer() {
               <div className='margincorrection'> <image>
                    {/*logo----------*/}
                    <Link to='/'>
-    <img src="../Images/image1.png" alt="" />
+    <img src="assets/Images/image1.png" alt="" />
     </Link>
               </image></div>
              

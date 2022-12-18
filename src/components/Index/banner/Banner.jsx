@@ -44,23 +44,23 @@ function Banner() {
         </div>
         <div className="carousel-inner" >
           <div className="carousel-item active">
-            <img src="../images/banner1.png" className="d-block w-100" alt="girl" max-width={'100px'} />
+            <img src="assets/images/banner1.png" className="d-block w-100" alt="girl" max-width={'100px'} />
           </div>
           <div className="carousel-item">
-            <img src="../images/banner2.png" className="d-block w-100" alt="boy" max-width={'100px'} />
+            <img src="assets/images/banner2.png" className="d-block w-100" alt="boy" max-width={'100px'} />
           </div>
           <div className="carousel-item">
-            <img src="../images/banner3.png" className="d-block w-100" alt="baby" max-width={'100px'} />
+            <img src="assets/images/banner3.png" className="d-block w-100" alt="baby" max-width={'100px'} />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" >
           <span aria-hidden="True" />
-          <img src="../images/Vector (1).png" alt="" />
+          <img src="assets/images/Vector (1).png" alt="" />
           <span className="visually-hidden">Previous</span>
         </button>
         <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
           <span aria-hidden="True" />
-          <img src="../images/Vector.png" alt="" />
+          <img src="assets/images/Vector.png" alt="" />
           <span ></span>
         </button>
       </div>

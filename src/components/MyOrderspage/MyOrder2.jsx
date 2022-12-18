@@ -12,7 +12,7 @@ function MyOrder2() {
       <div className="container-fluid">
         <div className="col-md-3">
           {" "}
-          <img src="../images/orderimg.png" alt="" class="img-fluid" />
+          <img src="assets/images/orderimg.png" alt="" class="img-fluid" />
         </div>
         <div className="col-md-3">
           <h3 className="orderhead">Manchester</h3>
