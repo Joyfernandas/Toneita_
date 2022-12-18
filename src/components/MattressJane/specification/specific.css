@@ -45,6 +45,12 @@ border-radius: 12px;
 /* Note: backdrop-filter has minimal browser support */
    
 }
+@media screen and (max-width:600px) {
+    .blurtitle{
+        width: 453px;
+    }
+    
+}
 .describtion{
     background: #FFF0D2;
     border: 1px solid #FFE8CF;

@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 // import Stepper from 'react-stepper-js'
-// import 'react-stepper-js/dist/index.css'
+// import "react-stepper-js/dist/index.css";
 
-const Go=()=> {
-    return
+const Go = () => {
+  return (
+    <>
     
-    (<>
     {/* <Stepper
       color="rgb(255, 142, 21)"
       fontSize="10px"
@@ -15,13 +15,13 @@ const Go=()=> {
         { label: "store pickup" },
         { label: "Dispatched" },
         { label: "Out of Delivery" },
-        { label: "Delivered" }
+        { label: "Delivered" },
       ]}
-      line={1} 
+      line={1}
       currentStep={3}
     /> */}
-    </>)
-   
-}
+    </>
+  );
+};
 
-export default Go
+export default Go;

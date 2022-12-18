@@ -6,6 +6,10 @@ import './jane.css'
 function Jane() {
   return (
    <>
+
+
+
+   
    <div className='mainjane'>  
 <div  className='img-margin'>
 <div  className='allimgjan'>
