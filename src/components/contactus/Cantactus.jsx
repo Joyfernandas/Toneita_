@@ -18,7 +18,7 @@ function Cantactus() {
         <Col><h3 className='maptext'><img src="/assets/images/Visit our store to feel the comfort.png" alt="" width={'89%'}/></h3>
         <div class='container' className='locationbtn'>
       
-      <button type="button" class="btn btn-warning"><BsFillGeoAltFill></BsFillGeoAltFill> Locate Us</button> 
+      <button type="button" class="btn btn-warning"  id='locatebtn'><BsFillGeoAltFill></BsFillGeoAltFill> Locate Us</button> 
       </div>
         </Col>
       </Row>

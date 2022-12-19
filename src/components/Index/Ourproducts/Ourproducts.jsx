@@ -62,7 +62,7 @@ export  const  Ourproducts=(items)=> {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          centerMode: true,
+          centerMode: false,
           slidesToScroll: 1
         }
       },

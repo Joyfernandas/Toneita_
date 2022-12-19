@@ -8,32 +8,7 @@ function Banner() {
   return (
     <>
 
-      {/* <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-  <ol className="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />
-    <li data-target="#carouselExampleIndicators" data-slide-to={1} />
-    <li data-target="#carouselExampleIndicators" data-slide-to={2} />
-  </ol>
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img className="d-block w-100" src="..." alt="First slide" />
-    </div>
-    <div className="carousel-item">
-      <img className="d-block w-100" src="../images/banner1.png" alt="Second slide" />
-    </div>
-    <div className="carousel-item">
-      <img className="d-block w-100" src="../images/banner2.png" alt="Third slide" />
-    </div>
-  </div>
-  <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true" />
-    <span className="sr-only">Previous</span>
-  </a>
-  <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true" />
-    <span className="sr-only">Next</span>
-  </a>
-</div> */}
+     
 
 
       <div id="carouselExampleIndicators" className="carousel slide bannerhover" data-bs-ride="true">
@@ -73,26 +48,26 @@ function Banner() {
             <div class="d-inline-flex p-2">
               <BsFillPenFill className="iconsize1 afterbannerSvg" >
               </BsFillPenFill>
-              <h4>personalized <br />Mattress</h4>
+              <h4 className='txtsize'>personalized <br />Mattress</h4>
             </div>
           </div>
 
           <div class="col afterbanner">
             <div class="d-inline-flex p-2">
               <BiBlanket className="iconsize1 afterbannerSvg"></BiBlanket>
-              <h4>Free swatches For Mattress</h4>
+              <h4 className='txtsize'>Free swatches For Mattress</h4>
             </div>
           </div>
           <div class="col afterbanner">
             <div class="d-inline-flex p-2">
               <BiCheckShield className="iconsize1 afterbannerSvg"></BiCheckShield>
-              <h4>5 Years <br /> Warranty</h4>
+              <h4 className='txtsize'>5 Years <br /> Warranty</h4>
             </div></div>
           <div class="col afterbanner">
             <div class="d-inline-flex p-2">
               <BiBadgeCheck className="iconsize1 afterbannerSvg"></BiBadgeCheck>
 
-              <h4>No Cost <br /> EMI</h4>
+              <h4 className='txtsize'>No Cost <br /> EMI</h4>
             </div>
           </div>
         </div>

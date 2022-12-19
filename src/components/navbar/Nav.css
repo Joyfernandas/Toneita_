@@ -17,12 +17,38 @@ ul{
 a{
     text-decoration: none;
 }
-
+.right-menu{
+    margin-right:auto ;
+}
 @media only screen and (max-width: 800px) {
     .navbar-collapse {
       background:#ffffff;
     }
+    
   }
+  @media screen and (max-width:600px) {
+    .right-menu{
+        margin-left: 241px;
+        margin-top: -79px;
+    }
+    .log{
+        margin-right: 123px;
+    }
+  }
+  @media screen and (max-width:400px) {
+    .right-menu{
+        margin-left: 212px;
+    margin-top: -90px;
+    margin-right: -7px;
+    }  
+  }
+  @media screen and (max-width:365px) {
+    .right-menu{
+        margin-left: 184px;
+    margin-top: -100px;
+   
+}
+    }
 
 nav{
     width:100%;
@@ -158,4 +184,15 @@ nav{
 }
 .navbar-light .navbar-nav .nav-link {
     color: #272727;
+}
+@media screen and (max-width:600px) {
+    #hoverca{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .allow{
+margin-top: -61px;
+    }
 }

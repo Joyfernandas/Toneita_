@@ -26,9 +26,20 @@
     align-content: flex-end;
 }
 .sleepbabymattress{
-    width: 200px;
+    width: 300px;
     position: absolute;
     margin-top: -108px;
     height: auto;
     padding: 12px;
+}
+@media screen and (max-width:600px) {
+    .sleepbabymattress{
+        width: 190px;
+        margin-top: -67px;
+    margin-left: -8px;
+    }
+    .flexbtnshop{
+        margin-top: -39px;
+    margin-right: -4px;
+    }
 }

@@ -20,4 +20,13 @@ body{
     .contentdiv{
         margin-top: 100px;
     }
+   
+   
+    
+    @media screen and (max-width:600px) {
+        .contimg{
+            width: 343px;
+        }
+        
+    }
     

@@ -39,111 +39,111 @@ export default function Footer() {
           <MDBRow className='mt-3'>
             <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
-              <p>
+              <ul>
                 <a href='#!' className='text-reset'>
                   Mattress
                 </a>
-              </p>
-              <p>
+              </ul>
+              <ul>
                 <a href='#!' className='text-reset'>
                   Pillows
                 </a>
-              </p>
-              <p>
+              </ul>
+              <ul>
                 <a href='#!' className='text-reset'>
                   Kid's Pillows
                 </a>
-              </p>
-              <p>
+              </ul>
+              <ul>
                 <a href='#!' className='text-reset'>
                   Swatches
                 </a>
-              </p>
-              <p>
+              </ul>
+              <ul>
                 <a href='#!' className='text-reset'>
                   Bolster
                 </a>
-              </p>
-              <p>
+              </ul>
+              <ul>
                 <a href='#!' className='text-reset'>
                 Cushions
                 </a>
-              </p>
+              </ul>
             </MDBCol>
 
             <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
              
-              <p>
+              <ul>
                 <a href='/' className='text-reset'>
                   Home
                 </a>
-              </p>
+              </ul>
              
-              <p>
+              <ul>
              
                 <a href='/about' className='text-reset'>
                   About
                 </a>
                
-              </p>
-              <p>
+              </ul>
+              <ul>
               
                 <a href='/mattress' className='text-reset'>
                   Products
                 </a>
                
-              </p>
-              <p>
+              </ul>
+              <ul>
                 <a href='/contact' className='text-reset'>
                   Contact
                 </a>
-              </p>
+              </ul>
             </MDBCol>
             <MDBCol md='4' lg='2' xl='2' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>purchase</h6>
-              <p>
+              <ul>
                 <a href='myorder' className='text-reset'>
                  Orders
                 </a>
-              </p>
-              <p>
+              </ul>
+              <ul>
                 <a href='#!' className='text-reset'>
                   Returns
                 </a>
-              </p>
-              <p>
+              </ul>
+              <ul>
                
-                <a href='/wishlist' className='text-reset'>
+                <ul href='/wishlist' className='text-reset'>
                   Wishlist
-                </a>
+                </ul>
                
-              </p>
-              <p>
+              </ul>
+              <ul>
              
                 <a href='/pricedetails' className='text-reset'>
                   Cart
                 </a>
             
-              </p>
+              </ul>
             </MDBCol>
 
             <MDBCol md='5' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Terms & Conditions</h6>
-              <p>
+              <ul>
                 <MDBIcon color='secondary' icon='home' className='me-2' />
                Return policy
-              </p>
-              <p>
+              </ul>
+              <ul>
                 <MDBIcon color='secondary' icon='envelope' className='me-3' />
                Warranty
-              </p>
-              <p>
+              </ul>
+              <ul>
                 <MDBIcon color='secondary' icon='phone' className='me-3' /> Sustainable Energy
-              </p>
-              <p>
+              </ul>
+              <ul>
                 <MDBIcon color='secondary' icon='print' className='me-3' />Material
-              </p>
+              </ul>
             </MDBCol>
             <MDBCol md='5' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
               <div>
@@ -152,7 +152,7 @@ export default function Footer() {
               <div className='margincorrection'> <image>
                    {/*logo----------*/}
                    <Link to='/'>
-    <img src="assets/Images/image1.png" alt="" />
+    <img src="assets/images/image1.png" alt="" />
     </Link>
               </image></div>
              

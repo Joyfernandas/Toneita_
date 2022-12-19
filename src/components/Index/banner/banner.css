@@ -6,13 +6,28 @@ body{
   
 }
 
+@media screen and (max-width:600px) {
+    .products{
+        height: 46px;
+    }
+    .afterbannerSvg{
+        font-size:smaller;
+    }
+    .txtsize{
+        font-size: 8px;
+    }
+    
+}
+
+
 .products {
     background-color: #FF8E15;
     color: white;
 
 }
-.afterbannerSvg{
-    font-size:x-large;
+
+.iconsize1{
+    font-size: medium;
 }
 .viewoff{
     display: none;

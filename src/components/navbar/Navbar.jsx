@@ -1,10 +1,16 @@
-import { Link } from "react-router-dom";
-import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import React, { useEffect, useState } from "react";
 import { BsSuitHeart, BsSearch, BsCart2 } from "react-icons/bs";
 import { AiOutlineSetting } from "react-icons/ai";
 // import Bannercard from "../Bannercard/Bannercard";
 
 const OpenModalCus = () => {
+  const location = useLocation()
+  console.log(location)
+
+  useEffect(()=>{
+    alert(location.pathname);
+  },[])
   var component = document.getElementById("ModalContent");
   var parent = document.getElementById("testcus");
 
@@ -32,10 +38,10 @@ function Navbar() {
         style={{ height: "85px" }}
       >
         <a class="navbar-brand" href="/">
-          <img src="assets/Images/image1.png" alt="" />
+          <img src="assets/Images/image1.png" alt="" className="log"/>
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler allow"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNavAltMarkup"
@@ -94,7 +100,7 @@ function Navbar() {
       </li>
           </div>
         </div>
-        <div className="right-menu" style={{ marginRight: "20px" }}>
+        <div className="right-menu" >
           <a href="#">
             <BsSearch size={"16px"}></BsSearch>
           </a>
