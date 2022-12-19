@@ -43,7 +43,6 @@ function Frequentlybought() {
    
     <div className='buynew'>
         {/* icon */} 
-        
         <div className='img-cartitems'>
             <p className='item'>1 item</p>
             <h3 className='pricelists'>₹23,995</h3>

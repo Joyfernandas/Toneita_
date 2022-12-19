@@ -319,12 +319,7 @@ line-height: 31px;
         padding: 11px;
     }
   }
-  @media only screen and (max-width:600px) {
-    .for-reponsive {
-width: 445px;
-    }
-   
-}
+
 
 
   .img-margin{
@@ -336,6 +331,12 @@ width: 445px;
     align-items: center;
   }
   .for-reponsive{
-    /* width: 580px; */
+    width: 600px;
     padding: 18px;
   }
+@media screen and (max-width:600px) {
+    .for-reponsive{
+        width: 405px;
+    }
+    
+}

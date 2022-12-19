@@ -42,6 +42,15 @@ function Specific() {
               </div>
             </div>
           </div>
+          <div className="parent-describ">
+        <div className="describ">
+          <h1 className="descontent">Describtion</h1>
+          <p className="destxt">
+            Soft and easy care cushion made with Spun polyester fabric and
+            filled with recycled polyster staple fibre.
+          </p>
+        </div>
+      </div>
         </div>
         </div>
         <div className="col-md-8">
