@@ -18,7 +18,7 @@ function Contentmattress() {
 </h1>
 </h1>
 <button type="button" class="btn btn-outline-success" className='sbutton'>Shop Now</button></Col><br /><br />
-        <Col>  <img src="assets/images/bedtonieta.png"  height={"200px"} className="contimg"/></Col>
+        <Col>  <img src="assets/images/matbed1.png"  height={"200px"} className="contimg"/></Col>
       </Row>
     </Container>
    </>  

@@ -39,7 +39,7 @@
 }
 
 .blurtitle{
-    width: 100%;
+    width: 100% !important;
 height: 500px;
 border-radius: 12px;
 /* Note: backdrop-filter has minimal browser support */
@@ -51,7 +51,7 @@ border-radius: 12px;
         margin-top: 21px;
     }
     .specmain{
-        width: 100%;
+        width: 100% !important;
     }
     .exjane{
         width: 100%;

@@ -1,0 +1,16 @@
+.janediv{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll !important;
+}
+@media screen and (max-width:600px) {
+    .janediv{
+        display: flex;
+        flex-direction: row;
+        overflow: scroll;
+        gap: 12px;
+        width: 344px;
+
+    }
+    
+}

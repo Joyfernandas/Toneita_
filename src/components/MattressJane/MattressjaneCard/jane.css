@@ -41,7 +41,6 @@
     gap: 12px;
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     padding: 11px;
 }
 
@@ -72,7 +71,7 @@ transition: 0.3s
     opacity: 1;
 }
 .jbtn{
-    width: 290px;
+    width: 262px;
     height: 56px;
   
     background: #FF8E15;
@@ -167,11 +166,29 @@ font-style: normal;
 font-weight: 700;
 font-size: 28px;
 line-height: 31px;
-/* identical to box height, or 111% */
-
 letter-spacing: -0.01em;
-
 color: #000000;
+}
+@media screen and (max-width:600px) {
+.boldjan{
+    font-size: 12px;
+}
+.offerjan{
+    font-size: 14px;
+} 
+.pricelist{
+    padding: 18px 14px;
+} 
+.flexibletxt{
+    padding: 0px 0px !important;
+    gap: 2px !important;
+}
+.jbtn{
+    width: 190px;
+}
+.btnjane{
+    width: 349px;
+}
 }
 .striketxt{
     opacity: 20%;
@@ -329,6 +346,7 @@ line-height: 31px;
     align-content: center;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   .for-reponsive{
     width: 600px;

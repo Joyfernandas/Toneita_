@@ -13,6 +13,7 @@ body{
     width: 203px;
     color: white;
     font-weight: 800;
+    margin-top: 10px;
     }
     .fw-bolder{
         margin-bottom: 10px;
@@ -20,12 +21,18 @@ body{
     .contentdiv{
         margin-top: 100px;
     }
-   
+   .contimg{
+    width: 100%;
+    height: 283px;
+    margin-top: -59px;
+   }
    
     
     @media screen and (max-width:600px) {
         .contimg{
             width: 343px;
+            height: auto;
+            margin-top: -1px;
         }
         
     }

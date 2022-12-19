@@ -9,12 +9,19 @@ body{
 @media screen and (max-width:600px) {
     .products{
         height: 46px;
-    }
+        padding: 3px  10px !important;
+
+        }
     .afterbannerSvg{
         font-size:smaller;
     }
     .txtsize{
-        font-size: 8px;
+        font-size: 7px;
+        padding: 4px 1px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
     
 }
@@ -23,11 +30,20 @@ body{
 .products {
     background-color: #FF8E15;
     color: white;
-
+padding: 19px 16px;
 }
 
 .iconsize1{
-    font-size: medium;
+    font-size: 21px;
+}
+.iconsize2{
+    font-size: 24px;
+}
+.iconsize3{
+    font-size: 24px;
+}
+.iconsize4{
+    font-size: 24px;
 }
 .viewoff{
     display: none;

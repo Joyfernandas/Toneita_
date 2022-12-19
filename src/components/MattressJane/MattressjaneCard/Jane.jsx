@@ -2,32 +2,18 @@ import React from 'react'
 import { AiOutlineShareAlt ,AiFillStar,AiOutlineStar} from "react-icons/ai";
 import { IoLocationOutline } from "react-icons/io5";
 import { Link } from 'react-router-dom';
+import Allimg from './Allimg';
+
 import './jane.css'
 function Jane() {
+
   return (
    <>
-
-
-
    
    <div className='mainjane'>  
 <div  className='img-margin'>
 <div  className='allimgjan'>
-        <div className='janediv' > 
-    <img src="assets/images/mattressjane.png" alt="" class='img-fluid'/>
-    </div>
-    <div className='janediv'>
-    <img src="assets/images/mattressjane.png" alt=""  class='img-fluid' />
-    </div>
-    <div className='janediv'>
-    <img src="assets/images/mattressjane.png" alt="" class='img-fluid' />
-    </div>
-    <div className='janediv'>
-    <img src="assets/images/mattressjane.png" alt=""  class='img-fluid' />
-    </div>
-    <div >
-    <img src="assets/images/mattressjane.png" alt=""  class='img-fluid' />
-    </div>
+    <Allimg/>
     </div>
     <div >
     <div className='janedivmattress'>
@@ -35,7 +21,6 @@ function Jane() {
      <div className='btnjane'><button type='button' className='jbtn1'>Add to Card</button>
    <Link to='/pricedetails'> <button type='button' className='jbtn'>Shop Now</button></Link>
    </div>
-     
     </div>
     </div>
 
@@ -64,14 +49,14 @@ function Jane() {
 <div className='methodtype'><h3 className='metypetxt'>Size</h3> <h3 className='metypetxt'>Dimension</h3> <h3  className='metypetxt'>Height</h3></div>
 <div className='dropdowntype'>
 <div className='materialssize' >
-<select class="ui-dropdown1">
+<select class="ui-dropdown1 jane">
   <option >size</option>
   <option >..</option>
   <option >..</option>
 </select>
 
 <div>
-<select class="ui-dropdown1">
+<select class="ui-dropdown1 jane">
   <option className='ma1' >Material</option>
   <option >mattress</option>
   <option >..</option>
@@ -79,7 +64,7 @@ function Jane() {
 </div>
 <div>
     
-<select class="ui-dropdown1">
+<select class="ui-dropdown1 jane">
   <option >sort by Recommented</option>
   <option >Pillows</option>
   <option >...</option>

@@ -2,15 +2,16 @@ import { Link, useLocation } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import { BsSuitHeart, BsSearch, BsCart2 } from "react-icons/bs";
 import { AiOutlineSetting } from "react-icons/ai";
+
 // import Bannercard from "../Bannercard/Bannercard";
 
 const OpenModalCus = () => {
-  const location = useLocation()
-  console.log(location)
+  const location = useLocation();
+  console.log(location);
 
-  useEffect(()=>{
+  useEffect(() => {
     alert(location.pathname);
-  },[])
+  }, []);
   var component = document.getElementById("ModalContent");
   var parent = document.getElementById("testcus");
 
@@ -28,7 +29,7 @@ const OpenModalCus = () => {
 function Navbar() {
   const [menu, setManu] = useState(false);
   const handledropdown = () => {};
-
+  const location = useLocation();
   return (
     <>
       {/* navbar */}
@@ -38,7 +39,7 @@ function Navbar() {
         style={{ height: "85px" }}
       >
         <a class="navbar-brand" href="/">
-          <img src="assets/images/image1.png" alt="" className="log"/>
+          <img src="assets/images/image1.png" alt="" className="log" />
         </a>
         <button
           class="navbar-toggler allow"
@@ -53,9 +54,15 @@ function Navbar() {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <div onClick={OpenModalCus} class=" nav-item nav-link" id="hoverca">
-              Products
-            </div>
+            {location.pathname === "/" ? (
+              <div
+                onClick={OpenModalCus}
+                class=" nav-item nav-link"
+                id="hoverca"
+              >
+                Products
+              </div>
+            ) : null}
 
             {menu ? (
               <Link class="nav-item nav-link" to="/mattress">
@@ -66,7 +73,7 @@ function Navbar() {
             <Link class="nav-item nav-link" to="/mattress">
               Mattress
             </Link>
-        
+
             <Link class="nav-item nav-link" to="/pillows">
               Pillows
             </Link>
@@ -79,31 +86,43 @@ function Navbar() {
             <Link class="nav-item nav-link" to="/bolster">
               Bolster
             </Link>
-            <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle p-1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Menu
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        
-          <a class="dropdown-item" ><Link to='/'>
-            Home</Link></a>
-          
-          <a class="dropdown-item" ><Link to='/about'>
-            About</Link></a>
-          <a class="dropdown-item" ><Link to='/profileinfo'>
-            Contact Profile </Link></a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item"><Link to='/myorder'>
-            
-            Orders </Link></a>
-        </div>
-      </li>
+            <ul class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle p-1"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Menu
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item">
+                  <Link to="/">Home</Link>
+                </a>
+
+                <a class="dropdown-item">
+                  <Link to="/about">About</Link>
+                </a>
+                <a class="dropdown-item">
+                  <Link to="/profileinfo">Contact Profile </Link>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item">
+                  <Link to="/myorder">Orders </Link>
+                </a>
+              </div>
+            </ul>
           </div>
         </div>
-        <div className="right-menu" >
-          <a href="#">
-            <BsSearch size={"16px"}></BsSearch>
-          </a>
+        <div className="right-menu">
+          <div class="searchBox">
+            <input type="search" placeholder="Search" />
+            <i class="fa fa-search"></i>
+          </div>
+
           <Link to="/wishlist">
             <a href="javascript:void(0);" className="user">
               <BsSuitHeart size={"16px"}></BsSuitHeart>
@@ -114,47 +133,15 @@ function Navbar() {
               <BsCart2 size={"16px"}></BsCart2>
             </a>
           </Link>
-
-          </div>
-
-
-          {/* <Link to='/menu'> */}
-          {/* <div className="dropdown-">
-          <a
-            class="dropdown-toggle"
-            href="#"
-            role="button"
-            id="dropdownMenuLink"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            <AiOutlineSetting size={"16px"}></AiOutlineSetting>
-          </a>
-
-          <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a className="dropdown-item" href="#">
-              Action
-            </a>
-            <a className="dropdown-item" href="#">
-              Another action
-            </a>
-            <a className="dropdown-item" href="#">
-              Something else here
-            </a>
-          </div>
-        </div> */}
-       
-        {/*search-bar---------------------------------*/}
-
-        <div className="search-bar">
-          {/*search-input-----*/}
-          <div className="search-input">
-            <input type="text" placeholder="Search For Product" name="search" />
-            {/*cancel-btn-*/}
-            <a href="javascript:void(0);" className="search-cancel">
-              <i className="fas fa-times" />
-            </a>
+          <div className="mbl-searchbar">
+            <div class="input-group">
+              <input
+                type="search"
+                placeholder="What're you searching for?"
+                aria-describedby="button-addon1"
+                class="form-control border-0 bg-light"
+              ></input>
+            </div>
           </div>
         </div>
       </nav>

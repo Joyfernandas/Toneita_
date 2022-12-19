@@ -48,26 +48,26 @@ function Banner() {
             <div class="d-inline-flex p-2">
               <BsFillPenFill className="iconsize1 afterbannerSvg" >
               </BsFillPenFill>
-              <h4 className='txtsize'>personalized <br />Mattress</h4>
+              <h4 className='txtsize'>personalized Mattress</h4>
             </div>
           </div>
 
           <div class="col afterbanner">
             <div class="d-inline-flex p-2">
-              <BiBlanket className="iconsize1 afterbannerSvg"></BiBlanket>
+              <BiBlanket className="iconsize2 afterbannerSvg"></BiBlanket>
               <h4 className='txtsize'>Free swatches For Mattress</h4>
             </div>
           </div>
           <div class="col afterbanner">
             <div class="d-inline-flex p-2">
-              <BiCheckShield className="iconsize1 afterbannerSvg"></BiCheckShield>
-              <h4 className='txtsize'>5 Years <br /> Warranty</h4>
+              <BiCheckShield className="iconsize3 afterbannerSvg"></BiCheckShield>
+              <h4 className='txtsize'>5 Years Warranty</h4>
             </div></div>
           <div class="col afterbanner">
             <div class="d-inline-flex p-2">
-              <BiBadgeCheck className="iconsize1 afterbannerSvg"></BiBadgeCheck>
+              <BiBadgeCheck className="iconsize4 afterbannerSvg"></BiBadgeCheck>
 
-              <h4 className='txtsize'>No Cost <br /> EMI</h4>
+              <h4 className='txtsize'>No Cost  EMI</h4>
             </div>
           </div>
         </div>

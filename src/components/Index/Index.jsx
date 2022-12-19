@@ -12,6 +12,7 @@ import React from 'react'
 import Sellerscart from './Sellerscart';
 import FloatingComponent from "../FloatingComponent/FloatingComponent";
 import { Data } from "./Ourproducts/Prodcard";
+import Certificate from "../certification/Certificate";
 
 
 
@@ -46,6 +47,7 @@ function Index() {
         {/* mattress feel end */}
     
         <Ourproducts />
+        <Certificate/>
 
         {/* our product carousel end */}
         <Sellerscart />
