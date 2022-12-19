@@ -38,7 +38,7 @@ function Navbar() {
         style={{ height: "85px" }}
       >
         <a class="navbar-brand" href="/">
-          <img src="assets/Images/image1.png" alt="" className="log"/>
+          <img src="assets/images/image1.png" alt="" className="log"/>
         </a>
         <button
           class="navbar-toggler allow"
