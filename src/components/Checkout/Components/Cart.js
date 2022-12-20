@@ -24,7 +24,7 @@ function CartDetails() {
                         <div className='imgtodrop'>
                             <div>
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" className='checkmate'/>
-                                <img src="../images/checkout.png" alt="" />
+                                <img src="assets/images/checkout.png" alt="" className='img-fluid' />
                             </div>
                             <div className='contanddrop'>
                                 <h4 className='titlename'>Mattress Jane</h4>
@@ -64,7 +64,7 @@ function CartDetails() {
                         <div className='imgtodrop'>
                             <div>
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                <img src="../images/checkout.png" alt="" />
+                                <img src="assets/images/checkout.png" alt="" className='img-fluid' />
                             </div>
                             <div className='contanddrop'>
                                 <h4 className='titlename'>Mattress Jane</h4>

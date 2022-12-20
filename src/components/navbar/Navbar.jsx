@@ -88,7 +88,7 @@ function Navbar() {
             </Link>
             <ul class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle p-1"
+                class="nav-link dropdown-toggle p-1 nvtest"
                 href="#"
                 id="navbarDropdown"
                 role="button"
@@ -122,7 +122,7 @@ function Navbar() {
             <input type="search" placeholder="Search" />
             <i class="fa fa-search"></i>
           </div>
-
+          <div className="wishandcart">
           <Link to="/wishlist">
             <a href="javascript:void(0);" className="user">
               <BsSuitHeart size={"16px"}></BsSuitHeart>
@@ -133,11 +133,13 @@ function Navbar() {
               <BsCart2 size={"16px"}></BsCart2>
             </a>
           </Link>
+          </div>
           <div className="mbl-searchbar">
             <div class="input-group">
               <input
                 type="search"
-                placeholder="What're you searching for?"
+                placeholder="What're you searching for?
+                "
                 aria-describedby="button-addon1"
                 class="form-control border-0 bg-light"
               ></input>

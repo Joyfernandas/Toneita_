@@ -41,12 +41,6 @@ export const Data=[
     title:'Cushions',
    
   },
-  {
-    id:6, 
-    img:("https://media.istockphoto.com/id/491815654/photo/beautiful-woman-sleeping-on-a-bed.jpg?b=1&s=612x612&w=0&k=20&c=swBWNaYoA2dlmom4AWueSG7RXJeylsuETU6u7ZtA1fQ="),
-    title:'Bolster',
-   
-  }
   ]
 
 

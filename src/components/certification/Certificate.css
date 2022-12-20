@@ -21,6 +21,15 @@ flex-direction: column;
     {
         font-size: 10px !important;
     }
+    .our{
+        font-weight: 700;
+    font-size: 8px;
+    line-height: 4px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    }
+
 }
 .imgcerti{
     width: 200px;

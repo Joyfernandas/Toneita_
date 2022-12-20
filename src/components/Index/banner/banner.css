@@ -57,6 +57,11 @@ padding: 19px 16px;
 .d-inline-flex{
     margin-left: 58px;
 }
+@media screen and (max-width:600px) {
+    .d-inline-flex{
+        margin-left: 1px !important;
+    }
+}
 .row-RowClass{
     display: flex;
     flex-wrap: nowrap;

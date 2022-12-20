@@ -49,5 +49,26 @@ color: #FFFFFF;
     background: #22242A;
 }
 .margincorrection{
-    margin-top: 126px;
+    margin-top: 100px;
+}
+.ulhover{
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 600;
+    transition: all .3s ease-out ;
+}
+
+.hover-footer{
+    transition: all .3s ease-out ; 
+    cursor: pointer;
+    background: #37383C;
+      
+}
+
+.hover-footer.text-reset:hover{
+    color: #FFFFFF;
+    transform: translate(0, -8px);
+    font-size: 1em;
+   
 }

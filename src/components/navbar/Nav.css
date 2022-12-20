@@ -190,6 +190,9 @@ nav {
   .mbl-searchbar {
     display: block !important;
   }
+  .wishandcart{
+    margin-left: 77px;
+  }
 }
 @media screen and (max-width: 600px) {
   .allow {
@@ -253,4 +256,28 @@ nav {
 }
 .mbl-searchbar {
   display: none;
+}
+.nvtest{
+  padding: 5px 0px !important;
+    margin-left: -18px;
+   
+}
+a{
+  text-decoration: none !important;
+}
+.dropdown-item{
+  transition: all .3s ease-out ; 
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-weight: 800px;
+ 
+
+}
+.dropdown-item:hover{
+  transform: translate(0, -8px);
+  font-size: 1em;
+  text-decoration: none;
+  background-color: orange;
+  color: white;
 }
