@@ -64,8 +64,6 @@ function Navbar() {
               </div>
             ) : null}
 
-          
-
             <Link class="nav-item nav-link" to="/mattress">
               Mattress
             </Link>
@@ -119,26 +117,29 @@ function Navbar() {
             <i class="fa fa-search"></i>
           </div>
           <div className="wishandcart">
-          <Link to="/wishlist">
-            <a href="javascript:void(0);" className="user">
-              <BsSuitHeart size={"16px"}></BsSuitHeart>
-            </a>
-          </Link>
-          <Link to="/myorder">
-            <a href="#">
-              <BsCart2 size={"16px"}></BsCart2>
-            </a>
-          </Link>
+            <Link to="/wishlist">
+              <a href="javascript:void(0);" className="user">
+                <BsSuitHeart size={"16px"}></BsSuitHeart>
+              </a>
+            </Link>
+            <Link to="/myorder">
+              <a href="#">
+                <BsCart2 size={"16px"}></BsCart2>
+              </a>
+            </Link>
           </div>
           <div className="mbl-searchbar">
-            <div class="input-group">
+            <div class="input-group rounded">
               <input
                 type="search"
-                placeholder="What're you searching for?
-                "
-                aria-describedby="button-addon1"
-                class="form-control border-0 bg-light"
-              ></input>
+                class="form-control rounded"
+                placeholder="Search"
+                aria-label="Search"
+                aria-describedby="search-addon"
+              />
+              <span class="input-group-text border-0" id="search-addon">
+                <i class="fas fa-search"></i>
+              </span>
             </div>
           </div>
         </div>
