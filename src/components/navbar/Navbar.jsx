@@ -64,11 +64,7 @@ function Navbar() {
               </div>
             ) : null}
 
-            {menu ? (
-              <Link class="nav-item nav-link" to="/mattress">
-                Mattress
-              </Link>
-            ) : null}
+          
 
             <Link class="nav-item nav-link" to="/mattress">
               Mattress

@@ -18,7 +18,7 @@ export default function Footer() {
             <MDBCol md="8" lg="8">
               <MDBRow className="justify-content-center justify-content-sm-start justify-content-md-start justify-content-lg-start" >
 
-                <MDBCol md="2" lg="2" xl="2" className="col-md-2 col-lg-2 col-xl-2 mx-5 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto">
+                <MDBCol md="2" lg="2" xl="2" className="col-md-2 col-lg-2 col-xl-2 mx-2 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto">
                   <h6 className="text-uppercase fw-bold mb-4">Products</h6>
                   <ul className=" ulhover">
                     <li  className="text-reset hover-footer">
@@ -48,7 +48,7 @@ export default function Footer() {
                   md="2"
                   lg="2"
                   xl="2"
-                  className="col-md-2 col-lg-2 col-xl-2 mx-5 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto ">
+                  className="col-md-2 col-lg-2 col-xl-2 mx-2 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto ">
                   <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
 
                   <ul className=" ulhover">
@@ -79,9 +79,9 @@ export default function Footer() {
                   md="2"
                   lg="2"
                   xl="2"
-                  className="col-md-2 col-lg-2 col-xl-2 mx-5 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto"
+                  className="col-md-2 col-lg-2 col-xl-2 mx-2 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto"
                 >
-                  <h6 className="text-uppercase fw-bold mb-4">purchase</h6>
+                  <h6 className="text-uppercase fw-bold mb-4 text-nowrap">purchase</h6>
                   <ul className=" ulhover">
                     <li className="text-reset hover-footer">
                     <Link to="/myorder" className="text-reset">
@@ -110,7 +110,7 @@ export default function Footer() {
                   md="3"
                   lg="3"
                   xl="3"
-                  className="col-md-2 col-lg-2 col-xl-2 mx-5 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto"
+                  className="col-md-2 col-lg-2 col-xl-2 mx-2 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto"
                 >
                   <h6 className="text-uppercase fw-bold mb-4">
                     Terms & Conditions
