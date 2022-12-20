@@ -16,10 +16,11 @@ export default function Footer() {
         <MDBContainer className="text-center text-md-start mt-5">
           <MDBRow className="mt-3 d-flex ">
             <MDBCol md="8" lg="8">
-              <MDBRow>
-                <MDBCol md="2" lg="2" xl="2" className="mx-2 mb-4 text-left  col-sm-2 text-center">
+              <MDBRow className="justify-content-center justify-content-sm-start justify-content-md-start justify-content-lg-start" >
+
+                <MDBCol md="2" lg="2" xl="2" className="col-md-2 col-lg-2 col-xl-2 mx-5 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto">
                   <h6 className="text-uppercase fw-bold mb-4">Products</h6>
-                  <ul className="text-left col-sm text-center ulhover">
+                  <ul className=" ulhover">
                     <li  className="text-reset hover-footer">
                       <Link ro='/products' className="text-reset">
                       Mattress
@@ -47,11 +48,10 @@ export default function Footer() {
                   md="2"
                   lg="2"
                   xl="2"
-                  className="mx-2 mb-4 text-left p-0  col-sm-2 text-center "
-                >
+                  className="col-md-2 col-lg-2 col-xl-2 mx-5 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto ">
                   <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
 
-                  <ul className="text-left col-sm text-center ulhover">
+                  <ul className=" ulhover">
                     <li  className="text-reset hover-footer">
                     <Link to="/" className="text-reset">
                      Home
@@ -79,10 +79,10 @@ export default function Footer() {
                   md="2"
                   lg="2"
                   xl="2"
-                  className="mx-2 mb-4 text-left p-0   col-sm-2 text-center"
+                  className="col-md-2 col-lg-2 col-xl-2 mx-5 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto"
                 >
                   <h6 className="text-uppercase fw-bold mb-4">purchase</h6>
-                  <ul className="text-left col-sm text-center ulhover">
+                  <ul className=" ulhover">
                     <li className="text-reset hover-footer">
                     <Link to="/myorder" className="text-reset">
                       orders
@@ -110,12 +110,12 @@ export default function Footer() {
                   md="3"
                   lg="3"
                   xl="3"
-                  className="mx-2 mb-m text-left p-0 d-0 mb-4  col-sm-2 text-center"
+                  className="col-md-2 col-lg-2 col-xl-2 mx-5 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto"
                 >
                   <h6 className="text-uppercase fw-bold mb-4">
                     Terms & Conditions
                   </h6>
-                  <ul className="text-left col-sm text-center ulhover">
+                  <ul className=" ulhover">
                     <li className="text-reset hover-footer">Return policy</li>
                     <li className="text-reset hover-footer">Warranty</li>
                     <li className="text-reset hover-footer">Sustainable Energy</li>
