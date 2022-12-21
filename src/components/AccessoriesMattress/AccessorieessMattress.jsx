@@ -8,7 +8,7 @@ function AccessorieessMattress() {
     <div className='cards'>
         <div className='card1' id='img1'>
             <h3>Pillows</h3>
-            <img src='assets/images/Pillow.png' alt="img1" className='img-fluid'/>
+            <img src='assets/images/pillow.png' alt="img1" className='img-fluid'/>
             <button> SHOP NOW </button>
         </div>
 
