@@ -38,6 +38,11 @@ align-items: flex-start;
 padding: 12px 163px 12px 12px;
 gap: 10px;
 }
+@media screen and (max-width:600px) {
+    .namefirst, .namesecond{
+        width: 100% !important;
+    }
+}
 .namesecond{
     width: 417px;
 height: 122px;
@@ -69,17 +74,17 @@ color: #3C4043;
 }
 .sub{
     background: #FF8E15;
-border-radius: 8px;
-display: flex;
-flex-direction: row;
-align-items: flex-end;
-padding: 10px 40px;
-gap: 10px;
-width: 134px;
-height: 46px;
-color: white;
-border: none;
-font-weight: 400;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 10px 40px;
+    gap: 10px;
+    width: 124px;
+    height: auto;
+    color: white;
+    border: none;
+    font-weight: 800;
 }
 .subdiv{
     display: flex;
@@ -91,6 +96,12 @@ font-weight: 400;
     flex-wrap: wrap;
     gap: 16px;
     margin: 2%;
+}
+@media screen and (max-width:600px) {
+    .quotediv{
+        width: 100%;
+    }
+    
 }
 .commonquotediv{
     display: flex;

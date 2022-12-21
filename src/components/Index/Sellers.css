@@ -108,3 +108,11 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.fw-bold{
+    color: #323232;
+}
+.ms-auto{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}

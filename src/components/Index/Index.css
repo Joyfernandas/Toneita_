@@ -12,6 +12,7 @@ body{
 
 .buttoncontact {
     background: linear-gradient(96.72deg, #FFAF5A 24.76%, #FF8E15 89.24%),
+   
 linear-gradient(0deg, #FFFFFF, #FFFFFF);
     box-sizing: border-box;
     border: 1px solid #FFFFFF;
@@ -24,10 +25,8 @@ linear-gradient(0deg, #FFFFFF, #FFFFFF);
 }
 
 .buttcon {
-    height: 95px;
-    width: 1440px;
-    left: 0px;
-    top: 693px;
+    height: 92px;
+    width: 100%;
     border-radius: 0px;
 }
 
@@ -212,6 +211,8 @@ linear-gradient(0deg, #FFFFFF, #FFFFFF);
 #root{
     font-family: 'Nunito';
 }
-
+.conta{
+    width: 137px;
+  }
 
 /* New Style */

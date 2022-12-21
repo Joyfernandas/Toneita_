@@ -16,7 +16,7 @@ function Requestquote() {
         </div>
         </div>
         <div>
-        <img src="../images/Rectangle 120.png" alt="" className='imgquery'/>
+        <img src="assets/images/Rectangle 120.png" alt="" className='img-fluid'/>
         </div>
     </div>
     <div className='quotediv'>

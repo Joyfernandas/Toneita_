@@ -13,6 +13,7 @@ import Sellerscart from './Sellerscart';
 import FloatingComponent from "../FloatingComponent/FloatingComponent";
 import { Data } from "./Ourproducts/Prodcard";
 import Certificate from "../certification/Certificate";
+import { Link } from "react-router-dom";
 
 
 
@@ -29,12 +30,12 @@ function Index() {
         {/* contact us */}
         <div class="d-flex p-2"><div class="container" className='buttcon'>
           <div className="mb-2">
-            <p align="right"> <Button variant="primary" size="lg" className='buttoncontact' >
-              Contact Us
-              <BsTelephoneFill></BsTelephoneFill>
-            </Button>
+            <p align="right"> 
+            <Link to="/contact">
+            <img src="assets/images/Group 288.png" alt="" className="conta"/>
+            </Link>
               {' '}
-              <img src="assets/images/whatsapp.gif" alt="" width={'40px'} />
+              <img src="assets/images/whatsapp.gif" alt="" width={'35px'} />
             </p>
 
           </div>
