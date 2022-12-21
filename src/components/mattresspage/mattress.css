@@ -80,10 +80,12 @@ color: #3D3D3D;
     line-height: 40px;
     font-family: 'Nunito';
     font-size: 15px;
-    width: 142px;
+    width: 156px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    padding: 0px 15px;
+    font-weight: 800;
 }
 .mainmat{
     object-fit: contain;
