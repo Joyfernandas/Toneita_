@@ -111,7 +111,7 @@ Rating: true,
    <>
   <div className='containerrev'>
     <div className='headerdiv'>
-      <h3 className='Custit'>CustomerReviews</h3>
+      <h3 className='Custit'>Customer Reviews</h3>
       <h3><button type="button" className='feedbackbtn'>Write Feedback</button></h3>
       <div className='fontstyles'>
       <span><fontas.FaChevronCircleLeft onClick={slideref?.slickPrev}/> </span>
@@ -124,7 +124,7 @@ Rating: true,
     <div className='ratepercent'>
       <div className='starandnum'>
       <h3><AiFillStar></AiFillStar></h3>
-        <div>
+        <div className='mt-1'>
           <h3>5</h3>
         </div>
       </div>
@@ -134,9 +134,9 @@ Rating: true,
       </div>
       <div className='ratepercent'>
       <div className='starandnum'>
-      <h3><AiFillStar></AiFillStar></h3>
+      <h3 className='ml-1'><AiFillStar></AiFillStar></h3>
         <div>
-          <h3>4</h3>
+          <h3 className='mt-1'>4</h3>
         </div>
       </div>
         <div className='percent2'>
@@ -145,9 +145,9 @@ Rating: true,
       </div>
       <div className='ratepercent'>
       <div className='starandnum'>
-      <h3><AiFillStar></AiFillStar></h3>
+      <h3 className='ml-1'><AiFillStar></AiFillStar></h3>
         <div>
-          <h3>3</h3>
+          <h3 className='mt-1'>3</h3>
         </div>
       </div>
         <div className='percent3'>
@@ -156,9 +156,9 @@ Rating: true,
       </div>
       <div className='ratepercent'>
       <div className='starandnum'>
-      <h3><AiFillStar></AiFillStar></h3>
+      <h3 className='ml-1'><AiFillStar></AiFillStar></h3>
         <div>
-          <h3>2</h3>
+          <h3 className='mt-1'>2</h3>
         </div>
       </div>
         <div className='percent4'>
@@ -167,9 +167,9 @@ Rating: true,
       </div>
       <div className='ratepercent'>
       <div className='starandnum'>
-      <h3><AiFillStar></AiFillStar></h3>
+      <h3 className='ml-1'><AiFillStar></AiFillStar></h3>
         <div>
-          <h3>1</h3>
+          <h3 className='mt-1'>1</h3>
         </div>
       </div>
         <div className='percent4'>

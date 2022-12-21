@@ -27,7 +27,7 @@ function MyOrder2() {
           <button type="button" className="cancelbtn mt-4">
             Cancel Order
           </button>
-          |
+          <span className="ml-3">|</span>
           <button type="button" className="recieptbtn m-4">
             Receipt
           </button>

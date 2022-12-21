@@ -42,7 +42,7 @@ function Jane() {
  
  <div>
  
- <h5><input type="text" placeholder='Enter your Pincode' /></h5>
+ <h5><input type="text" className='form-control' placeholder='Enter your Pincode' /></h5>
  
  </div>
  </div>
