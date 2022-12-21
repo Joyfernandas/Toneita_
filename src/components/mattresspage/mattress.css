@@ -38,13 +38,14 @@ margin-left: 237px;
 }
 .suitheart{
     position: absolute;
-    margin-left: 282px;
-    margin-top: 271px;
-color: #FFFFFF;
-background: #3D3D3D;
-border-radius: 30px;
-width: 21px;
-height: 17px;
+    margin-left: 276px;
+    margin-top: 279px;
+    color: #FFFFFF;
+    background: #3D3D3D;
+    border-radius: 30px;
+    width: fit-content;
+    height: 20px;
+    padding: 0px 5px
 }
 .hearticon{
     border: 1px solid #FFFFFF;

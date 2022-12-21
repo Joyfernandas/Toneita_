@@ -12,14 +12,14 @@ import {
 export default function Footer() {
   return (
     <MDBFooter bgColor="dark" className="text-center text-lg-start text-muted">
-      <section className="colofoo">
+      <section className="colofoo pb-4">
         <MDBContainer className="text-center text-md-start mt-5">
           <MDBRow className="mt-3 d-flex ">
             <MDBCol md="8" lg="8">
-              <MDBRow className="justify-content-center justify-content-sm-start justify-content-md-start justify-content-lg-start" >
+              <MDBRow className="justify-content-start justify-content-sm-start justify-content-md-start justify-content-lg-start" >
 
-                <MDBCol md="2" lg="2" xl="2" className="col-md-2 col-lg-2 col-xl-2 mx-2 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto">
-                  <h6 className="text-uppercase  mb-4 change-color">Products</h6>
+                <MDBCol md="2" lg="2" xl="2" className="col-md-2 col-lg-2 col-xl-2 mr-3 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 w-auto">
+                  <h6 className="text-uppercase  mb-1 change-color">Products</h6>
                   <ul className=" ulhover">
                     <li  className="text-reset hover-footer">
                       <Link ro='/products' className="text-reset">
@@ -48,8 +48,8 @@ export default function Footer() {
                   md="2"
                   lg="2"
                   xl="2"
-                  className="col-md-2 col-lg-2 col-xl-2 mx-2 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto ">
-                  <h6 className="text-uppercase  mb-4 change-color">Useful links</h6>
+                  className="col-md-2 col-lg-2 col-xl-2 mr-3 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 w-auto ">
+                  <h6 className="text-uppercase  mb-1 change-color">Useful links</h6>
 
                   <ul className=" ulhover">
                     <li  className="text-reset hover-footer">
@@ -79,9 +79,9 @@ export default function Footer() {
                   md="2"
                   lg="2"
                   xl="2"
-                  className="col-md-2 col-lg-2 col-xl-2 mx-2 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto"
+                  className="col-md-2 col-lg-2 col-xl-2 mr-3 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 w-auto"
                 >
-                  <h6 className="text-uppercase  mb-4 text-nowrap change-color">purchase</h6>
+                  <h6 className="text-uppercase  mb-1 text-nowrap change-color">purchase</h6>
                   <ul className=" ulhover">
                     <li className="text-reset hover-footer">
                     <Link to="/myorder" className="text-reset">
@@ -110,9 +110,9 @@ export default function Footer() {
                   md="3"
                   lg="3"
                   xl="3"
-                  className="col-md-2 col-lg-2 col-xl-2 mx-2 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto"
+                  className="col-md-2 col-lg-2 col-xl-2 mr-3 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 w-auto"
                 >
-                  <h6 className="text-uppercase  mb-4 change-color">
+                  <h6 className="text-uppercase  mb-1 change-color">
                     Terms & Conditions
                   </h6>
                   <ul className=" ulhover">
@@ -122,6 +122,7 @@ export default function Footer() {
                     <li className="text-reset hover-footer">Material</li>
                   </ul>
                 </MDBCol>
+
               </MDBRow>
             </MDBCol>
             <MDBCol md="4" lg="4">
@@ -159,7 +160,6 @@ export default function Footer() {
           {" "}
           © 2022 Copyright | Tonieta | All Rights Reserverd
         </h6>
-        <li className="text-reset hover-footer " href="https://mdbootstrap.com/"></li>
       </div>
     </MDBFooter>
   );
