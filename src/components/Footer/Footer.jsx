@@ -19,7 +19,7 @@ export default function Footer() {
               <MDBRow className="justify-content-center justify-content-sm-start justify-content-md-start justify-content-lg-start" >
 
                 <MDBCol md="2" lg="2" xl="2" className="col-md-2 col-lg-2 col-xl-2 mx-2 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto">
-                  <h6 className="text-uppercase fw-bold mb-4 changecolor">Products</h6>
+                  <h6 className="text-uppercase  mb-4 change-color">Products</h6>
                   <ul className=" ulhover">
                     <li  className="text-reset hover-footer">
                       <Link ro='/products' className="text-reset">
@@ -49,7 +49,7 @@ export default function Footer() {
                   lg="2"
                   xl="2"
                   className="col-md-2 col-lg-2 col-xl-2 mx-2 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto ">
-                  <h6 className="text-uppercase fw-bold mb-4 changecolor">Useful links</h6>
+                  <h6 className="text-uppercase  mb-4 change-color">Useful links</h6>
 
                   <ul className=" ulhover">
                     <li  className="text-reset hover-footer">
@@ -81,7 +81,7 @@ export default function Footer() {
                   xl="2"
                   className="col-md-2 col-lg-2 col-xl-2 mx-2 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto"
                 >
-                  <h6 className="text-uppercase fw-bold mb-4 text-nowrap changecolor">purchase</h6>
+                  <h6 className="text-uppercase  mb-4 text-nowrap change-color">purchase</h6>
                   <ul className=" ulhover">
                     <li className="text-reset hover-footer">
                     <Link to="/myorder" className="text-reset">
@@ -112,7 +112,7 @@ export default function Footer() {
                   xl="3"
                   className="col-md-2 col-lg-2 col-xl-2 mx-2 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 text-center w-auto"
                 >
-                  <h6 className="text-uppercase fw-bold mb-4 changecolor">
+                  <h6 className="text-uppercase  mb-4 change-color">
                     Terms & Conditions
                   </h6>
                   <ul className=" ulhover">
@@ -127,7 +127,7 @@ export default function Footer() {
             <MDBCol md="4" lg="4">
            
                 <div class="d-flex align-items-center flex-column justify-content-center">
-                  <h3 className="text-uppercase changecolor
+                  <h3 className="text-uppercase change-color
                   ">Get Support</h3>
                   <p className="salesoch">Sales@ochera.co.in</p>
                   <div className="margincorrection">
@@ -159,7 +159,7 @@ export default function Footer() {
           {" "}
           © 2022 Copyright | Tonieta | All Rights Reserverd
         </h6>
-        <li className="text-reset hover-footer fw-bold" href="https://mdbootstrap.com/"></li>
+        <li className="text-reset hover-footer " href="https://mdbootstrap.com/"></li>
       </div>
     </MDBFooter>
   );
