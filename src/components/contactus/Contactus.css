@@ -52,3 +52,6 @@ height: 380px;
 .locationbtn{
     margin-left: 100px;
 }
+.maptext{
+    white-space: nowrap;
+}

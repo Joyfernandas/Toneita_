@@ -276,14 +276,13 @@ a{
 
 }
 .nav-item{
-  transition: all .5s ease-out ; 
+  transition: all .3s ease-out ; 
   cursor: pointer;
   text-decoration: none;
   color: white;
 }
 .nav-item:hover{
-  transform: translate(0, -10px);
-  font-size: 1em;
+  transform: translateX(0px);
   border-radius: 30px;
   width: fit-content;
   color: white;
@@ -291,7 +290,7 @@ a{
   height: auto;
 }
 .dropdown-item:hover{
-  transform: translate(0, -8px);
+  transform: translateX(1px);
   font-size: 1em;
   text-decoration: none;
   background-color: orange;

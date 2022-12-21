@@ -119,20 +119,18 @@ height: 30px;
 .mainrating{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-top: 18px;
+    gap: 22px;
 }
-.sliderrate{
+/* .sliderrate{
     width: 100%;
     height: fit-content; 
  padding: 20px 10px; 
-}
+} */
 .sliderwithrate{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-around;
     align-items: center;
 }
 

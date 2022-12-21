@@ -2,7 +2,7 @@
     background: #FFFFFF;
     border: 1px solid #D5DAE4;
     border-radius: 8px;
-    width: 400px;
+    width: 434px;
     height: 240px;
     display: flex;
     flex-wrap: wrap;
@@ -11,14 +11,14 @@
 }
 @media screen and (max-width: 600px) {
     .reviewcustomer {
-        width: 100vw;
+        width: 100%;
         height: auto;
     }
     .dateandstar{
         display: flex;
         flex-direction: row;
         align-content: center;
-        gap: 22px;
+       gap:46px !important;
         justify-content: space-between;
         align-items: center;
     }
@@ -36,18 +36,18 @@
         .revtxt{
             font-weight: 400;
             text-align: justify;
-            font-size: 1px;
-            line-height: 8px;
+            font-size: 12px !important;
+
             color: #232323;
         }
         .janvi{
             font-weight: 600;
-        font-size: 6px;
+        font-size: 10px !important;
         line-height: 8px;
         }
         .tmedte{
             font-weight: 600;
-            font-size: 6.5px;
+            font-size: 10px !important;
             line-height: 2px;
             text-align: justify;
             color: #717171;
@@ -83,7 +83,7 @@ border-radius: 0.5px;
 .revtxt{
     font-weight: 400;
     text-align: justify;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 26px;
     color: #232323;
 }

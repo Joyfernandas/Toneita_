@@ -29,7 +29,7 @@ function Index() {
 
         {/* contact us */}
         <div class="d-flex p-2"><div class="container" className='buttcon'>
-          <div className="mb-2">
+          <div className="mb-2 flex-end align-items-center justify-content-center mr-5">
             <p align="right"> 
             <Link to="/contact">
             <img src="assets/images/Group 288.png" alt="" className="conta"/>
