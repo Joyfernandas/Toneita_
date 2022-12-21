@@ -10,7 +10,7 @@ function Mattressontheway() {
     <Navbar/>
     <div className='ontheway'>
     <div>
-    <img src="../images/lastcheckout.png" alt=""/>
+    <img src="assets/images/lastcheckout.png" alt=""/>
     <h4 className=''>your mattress is on the way</h4>
     </div>
     <Link to='/mattress'>
