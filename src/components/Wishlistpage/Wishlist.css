@@ -8,6 +8,7 @@ align-items: center;
     display: flex;
     gap: 10px;
     align-items: center;
+    margin-top: 14px;
    
 }
 .heartfill{

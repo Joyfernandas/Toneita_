@@ -28,7 +28,6 @@ function AccessorieessMattress() {
             <button> SHOP NOW </button>
         </div>
     </div>
-    
     </>
   )
 }
