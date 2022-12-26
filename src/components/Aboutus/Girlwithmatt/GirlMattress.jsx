@@ -5,7 +5,7 @@ import "./girlmattress.css";
 function GirlMattress() {
   return (
     <>
-      <div className="totalblurimg">
+      <div className="totalblurimg container rounded-4">  
         <div>
           <div className="girlmattress">
             <div className="contenttoneita">
@@ -23,7 +23,7 @@ function GirlMattress() {
         </div>
       </div>
       {/* second blurimg */}
-      <div className="totalblurimg">
+      <div className="totalblurimg container rounded-4">
         <div>
           <div className="toneitabacktitle">
             <div className="contenttoneita2">

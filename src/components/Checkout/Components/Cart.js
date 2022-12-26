@@ -13,7 +13,6 @@ function CartDetails() {
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" className='inputtxtcart' />
                     <div >
                         <h4 className='txtcard'>2/2 Item selected</h4>
-
                     </div>
                     <div>
                         <h4 className='txtcard'>Remove|Move to Wishlist</h4>
@@ -23,7 +22,7 @@ function CartDetails() {
                     <div className='conttentonly'>
                         <div className='imgtodrop'>
                             <div>
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" className='checkmate'/>
+                                <input class="form-check-input" type="checkbox" value="" />
                                 <img src="assets/images/checkout.png" alt="" className='img-fluid' />
                             </div>
                             <div className='contanddrop'>
@@ -63,7 +62,7 @@ function CartDetails() {
                     <div className='conttentonly'>
                         <div className='imgtodrop'>
                             <div>
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                                <input class="form-check-input" type="checkbox" value=""  />
                                 <img src="assets/images/checkout.png" alt="" className='img-fluid' />
                             </div>
                             <div className='contanddrop'>

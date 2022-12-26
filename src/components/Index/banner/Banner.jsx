@@ -4,6 +4,7 @@ import { BiBadgeCheck, BiBlanket, BiCheckShield } from "react-icons/bi";
 import { BsFillPenFill, BsTelephoneFill, BsWhatsapp } from "react-icons/bs";
 
 import React from 'react'
+import RibbonComponent from '../../RibbonComponent';
 function Banner() {
   return (
     <>
@@ -42,7 +43,7 @@ function Banner() {
 
 
       {/* main card */}
-      <div class='container' className='products '>
+      <div class='container' className='products d-none'>
         <div class="row-RowClass">
           <div class="col afterbanner">
             <div class="d-inline-flex p-2">
@@ -72,6 +73,7 @@ function Banner() {
           </div>
         </div>
       </div>
+      <RibbonComponent />
       {/* contact us */}
 
     </>

@@ -20,6 +20,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Prodcard from './Prodcard';
 import {Data} from './Prodcard'
 import * as fontas from "react-icons/fa";
+import { KeyboardArrowLeft, KeyboardArrowRight } from 'styled-icons/material';
 
 
 
@@ -81,15 +82,16 @@ export  const  Ourproducts=(items)=> {
   
       {/* carousel our products */}
 
-    <div className="ourproducts">
+    <div className="ourproducts container-fluid">
 
 
 <div className="arrowsslick"><Heading mb={3} style={{marginBottom:"20px",marginTop:"20px",fontWeight:"bolder"}}>Our Products   
 
 </Heading>
-<div className="cardstyles">
-  <span><fontas.FaChevronCircleLeft onClick={slideref?.slickPrev}/> </span>
- <span> <fontas.FaChevronCircleRight onClick={slideref?.slickNext}/> </span></div>
+<div className="d-flex flex-row gap-3">
+<span><KeyboardArrowLeft onClick={slideref?.slickPrev} style={{backgroundColor:"black", borderRadius:"50px", cursor:"pointer"}} fill="white" width={30}/></span>
+  <span><KeyboardArrowRight onClick={slideref?.slickNext} style={{backgroundColor:"black", borderRadius:"50px", cursor:"pointer"}} fill="white" width={30}/> </span></div>
+ 
 </div>
 
   <MDBContainer fluid className="my-5" id='productsrow'>

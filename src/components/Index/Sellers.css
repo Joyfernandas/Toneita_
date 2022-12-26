@@ -27,6 +27,9 @@ body{
     background-color: white;
 
 }
+.slick-track {
+    margin:auto;
+}
 
 .arrowbtn {
 

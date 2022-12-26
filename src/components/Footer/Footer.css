@@ -70,7 +70,7 @@ color: #FFFFFF;
 
 .hover-footer.text-reset:hover{
     color: #FFFFFF !important;
-    transform:translateX(10px);
+    transform:translateX(3px);
     /* font-size: 1em; */
 }
     

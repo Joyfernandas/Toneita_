@@ -41,7 +41,7 @@ const Data = [
 ]
 
 
-function FloatingComponent() {
+const FloatingComponent = () => {
     return (
         <>
             <div className='banner-main' id='testcus' >

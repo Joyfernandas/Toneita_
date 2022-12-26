@@ -88,6 +88,18 @@ font-size: larger;
    gap: 20px;
    padding: 20px 10px;
 }
+.wishwish{
+    display: flex;
+    gap: 14px;
+    margin-bottom: 13px;
+}
+.wishtxt{
+    font-weight: 600;
+font-size: 30px;
+line-height: 24px;
+color: #000000;
+}
+    
 @media screen and (max-width:600px) {
     .wcardtotal{
         display: flex;
@@ -97,5 +109,4 @@ font-size: larger;
         gap: 20px;
         padding: 20px 10px;
     }
-    
 }

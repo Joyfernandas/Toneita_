@@ -1,15 +1,15 @@
 import React from "react";
 import Footer from "../Footer/Footer";
 import Navbar from "../navbar/Navbar";
-import Go from "../stepper/Stepper";
 import "./MyOrder2.css";
 import { Link } from "react-router-dom";
+import Tracker from "../OrderTracker/OrderTracker";
 function MyOrder2() {
   return (
     <>
       <Navbar />
 
-      <div className="container-fluid">
+      <div className="container-fluid mt-5">
         <div className="col-md-3">
           {" "}
           <img src="assets/images/orderimg.png" alt="" class="img-fluid" />
@@ -24,10 +24,13 @@ function MyOrder2() {
         </div>
         <div className="col-md-3">
           {" "}
+         
           <button type="button" className="cancelbtn mt-4">
             Cancel Order
           </button>
+         
           <span className="ml-3">|</span>
+          
           <button type="button" className="recieptbtn m-4">
             Receipt
           </button>
@@ -45,42 +48,7 @@ function MyOrder2() {
         <h5>Order ID: 219865383927</h5>
         <p>Order Has been shipped</p>
       </div>
-      {/* <div>
-        <div className="allorder">
-          <div className="contentorder">
-            <img src="../images/orderimg.png" alt="" />
-            <div className="conttxt">
-              <h3 className="orderhead">Manchester</h3>
-              <p className="orderlight">the Premium segment of Toneita</p>
-              <h2 className="orderprice">Rs.35,300</h2>
-              <button type="button" className="viewbtn">
-                View Product
-              </button>
-            </div>
-          </div>
-          <div className="contdelivery">
-            <button type="button" className="cancelbtn">
-              Cancel Order
-            </button>
-            |
-            <button type="button" className="recieptbtn">
-              Receipt
-            </button>
-          </div>
-          <div>
-            <button type="button" className="trackbtn">
-              {" "}
-              Buy Again
-            </button>
-          </div>
-        </div>
-        <div className="orderdetail">
-          <h5>Order ID: 219865383927</h5>
-          <p>Order Has been shipped</p>
-        </div>
-      </div> */}
-
-      <Go />
+<Tracker/>
       <div className="shppingorder">
         <Link to="/mattress">
           <button type="button" className="btnshopping">

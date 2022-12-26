@@ -35,6 +35,9 @@ flex-direction: row;
     align-items: center;
     padding: 10px 10px;
 }
+.dot-margin{
+    margin-right: 5px;
+}
 .orderhead{
     font-weight: 700;
 font-size: 16px;

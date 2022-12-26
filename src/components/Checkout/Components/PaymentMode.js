@@ -11,7 +11,7 @@ function PaymentMode() {
    <>
    <Navbar/>
    <Stepper/>
-   <div className='paymodetota'>
+   <div className='paymodetota container'>
    <Pay/>
    
    {/* <div className='paymentdiv'>
@@ -58,14 +58,16 @@ function PaymentMode() {
     <h4 className='tottxt'>Total amount</h4>
     <h4>₹50,600</h4>
     </div>
-    <h5>We'we sent a OTP to your Register Mobile no</h5>
+    <div className='otpbtn'>
+    <h6 className='otptxt'>we sent a OTP to your registered mobile no.</h6>
     <div className='txtboxbtndiv'>
-        <input type="texbox" placeholder='ENTER OTP' className='boxxt'/>
+        <input type="texbox" placeholder='Enter your OTP' className='boxxt'/>
         <button type="button" className='checkbtn'>CHECK</button>
     </div>
     <Link to='/ontheway'>
     <button type="button" className='continuebtn'>Buy Now</button>
     </Link>
+    </div>
   </div>
   </div>
   <Footer/>

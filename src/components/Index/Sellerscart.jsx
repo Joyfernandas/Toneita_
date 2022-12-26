@@ -8,8 +8,11 @@ import {
   MDBRow,
 } from "mdb-react-ui-kit";
 import { Heading } from '@chakra-ui/react'
-import Square from "../carouselseller/Square";
+// import Square from "../carouselseller/Square";
 import { useState } from "react";
+import BestSellerCardComponent from "../BestSellerCardComponent/BestSellerCardComponent";
+import { LeftArrow } from "styled-icons/boxicons-regular";
+import { KeyboardArrowLeft, KeyboardArrowRight } from "styled-icons/material";
 
 const Data=[
   {
@@ -78,13 +81,13 @@ function Sellerscart() {
     infinite: true,
     Sellerscart: true,
     arrows:false,
-    speed: 1600,
+    speed: 2000,
     autoplay:true,
     pauseOnHover: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 5000,
     cssEase: "linear",
-    centerMode: false,
-    slidesToShow:4,
+    centerMode: true,
+    slidesToShow:3,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
@@ -98,11 +101,12 @@ function Sellerscart() {
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 800,
         settings: {
           slidesToShow: 2,
+          centerMode:false,
           slidesToScroll: 1,
-          initialSlide: 0
+          initialSlide: 3
         }
       },
       {
@@ -117,7 +121,7 @@ function Sellerscart() {
         breakpoint: 390,
         settings: {
           slidesToShow: 1,
-          centerMode: true,
+          centerMode: false,
           slidesToScroll: 1
         }
       }
@@ -133,18 +137,18 @@ const [slideref,setSliderRef]=useState()
 <div class="divseller">
 <MDBContainer className="containerslick">
 
-<div className="arrowsslick"><Heading mb={3} style={{marginBottom:"20px",marginTop:"20px",fontWeight:"bolder"}}>Best Sellers    
+<div className="arrowsslick"><Heading mb={3} style={{marginBottom:"20px",marginTop:"20px",fontWeight:"700"}}>Best Sellers    
 
 </Heading>
-<div className="fontstyles">
-  <span><fontas.FaChevronCircleLeft onClick={slideref?.slickPrev}/> </span>
- <span> <fontas.FaChevronCircleRight onClick={slideref?.slickNext}/> </span></div>
+<div className="d-flex flex-row gap-3">
+  <span><KeyboardArrowLeft onClick={slideref?.slickPrev} style={{backgroundColor:"black", borderRadius:"50px", cursor:"pointer"}} fill="white" width={30}/></span>
+  <span><KeyboardArrowRight onClick={slideref?.slickNext} style={{backgroundColor:"black", borderRadius:"50px", cursor:"pointer"}} fill="white" width={30}/> </span></div>
 </div>
       <MDBRow>
       <Slider {...settings}ref={setSliderRef}>
        {Data.map ((props)=>{
         return(
-       <Square 
+       <BestSellerCardComponent 
        heading={props.heading}
        img={props.img}
        rating={props.rating}

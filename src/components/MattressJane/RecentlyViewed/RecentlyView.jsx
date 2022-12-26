@@ -12,6 +12,7 @@ import {
     MDBContainer,
     MDBRow,
   } from "mdb-react-ui-kit";
+import BestSellerCardComponent from '../../BestSellerCardComponent/BestSellerCardComponent';
 
 const Data=[
     {
@@ -144,7 +145,7 @@ function RecentlyView() {
       <Slider {...settings}ref={setSliderRef}>
        {Data.map ((props)=>{
         return(
-       <Square 
+       <BestSellerCardComponent 
        heading={props.heading}
        img={props.img}
        rating={props.rating}

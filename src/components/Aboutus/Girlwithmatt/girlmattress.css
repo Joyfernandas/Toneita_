@@ -4,6 +4,8 @@
     display: flex;
     justify-content: flex-start;
     height: 347px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contenttoneita,.contenttoneita2{
     background: #3D3F43;
@@ -23,6 +25,8 @@ backdrop-filter: blur(25px);
     display: flex;
     justify-content: flex-end;
     height: 347px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 @media screen and (max-width:600px) {
     .contenttoneita{

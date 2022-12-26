@@ -13,17 +13,17 @@ export default function Footer() {
   return (
     <MDBFooter bgColor="dark" className="text-center text-lg-start text-muted">
       <section className="colofoo pb-4">
-        <MDBContainer className="text-center text-md-start mt-5">
-          <MDBRow className="mt-3 d-flex ">
+        <div className="container-fluid text-center text-md-start mt-5">
+          <MDBRow className="mt-3 d-flex mx-5">
             <MDBCol md="8" lg="8">
               <MDBRow className="justify-content-start justify-content-sm-start justify-content-md-start justify-content-lg-start" >
 
                 <MDBCol md="2" lg="2" xl="2" className="col-md-2 col-lg-2 col-xl-2 mr-3 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 w-auto">
-                  <h6 className="text-uppercase  mb-1 change-color">Products</h6>
+                  <h6 className="text-capitalize font-weight-bold  mb-1 change-color">products</h6>
                   <ul className=" ulhover">
-                    <li  className="text-reset hover-footer">
+                    <li className="text-reset hover-footer">
                       <Link ro='/products' className="text-reset">
-                      Mattress
+                        Mattress
                       </Link>
                     </li>
                     <li href="#!" className="text-reset hover-footer">
@@ -49,28 +49,28 @@ export default function Footer() {
                   lg="2"
                   xl="2"
                   className="col-md-2 col-lg-2 col-xl-2 mr-3 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 w-auto ">
-                  <h6 className="text-uppercase  mb-1 change-color">Useful links</h6>
+                  <h6 className="text-capitalize font-weight-bold  mb-1 change-color">Useful links</h6>
 
                   <ul className=" ulhover">
-                    <li  className="text-reset hover-footer">
-                    <Link to="/" className="text-reset">
-                     Home
+                    <li className="text-reset hover-footer">
+                      <Link to="/" className="text-reset">
+                        Home
                       </Link>
-                     
+
                     </li>
                     <li href="/about" className="text-reset hover-footer">
                       <Link to="/about" className="text-reset">
-                      About
+                        About
                       </Link>
                     </li>
                     <li className="text-reset hover-footer">
-                    <Link to="/mattress" className="text-reset">
-                      products
+                      <Link to="/mattress" className="text-reset">
+                        products
                       </Link>
                     </li>
-                    <li  className="text-reset hover-footer">
-                    <Link to="/contact" className="text-reset">
-                      contact
+                    <li className="text-reset hover-footer">
+                      <Link to="/contact" className="text-reset">
+                        contact
                       </Link>
                     </li>
                   </ul>
@@ -81,27 +81,27 @@ export default function Footer() {
                   xl="2"
                   className="col-md-2 col-lg-2 col-xl-2 mr-3 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 w-auto"
                 >
-                  <h6 className="text-uppercase  mb-1 text-nowrap change-color">purchase</h6>
+                  <h6 className="text-capitalize font-weight-bold  mb-1 text-nowrap change-color">purchase</h6>
                   <ul className=" ulhover">
                     <li className="text-reset hover-footer">
-                    <Link to="/myorder" className="text-reset">
-                      orders
+                      <Link to="/myorder" className="text-reset">
+                        orders
                       </Link>
-                    
+
                     </li>
                     <li href="#!" className="text-reset hover-footer">
                       Returns
                     </li>
-                    <li  className="text-reset hover-footer">
-                    <Link to="/wishlist" className="text-reset">
-                      Wishlist
+                    <li className="text-reset hover-footer">
+                      <Link to="/wishlist" className="text-reset">
+                        Wishlist
                       </Link>
                     </li>
-                    <li  className="text-reset hover-footer">
-                    <Link to="/Pricedetails" className="text-reset">
-                      cart
+                    <li className="text-reset hover-footer">
+                      <Link to="/Pricedetails" className="text-reset">
+                        cart
                       </Link>
-                   
+
                     </li>
                   </ul>
                 </MDBCol>
@@ -112,7 +112,7 @@ export default function Footer() {
                   xl="3"
                   className="col-md-2 col-lg-2 col-xl-2 mr-3 mb-4 text-left text-sm-left text-lg-left text-md-left col-sm-2 w-auto"
                 >
-                  <h6 className="text-uppercase  mb-1 change-color">
+                  <h6 className="text-capitalize font-weight-bold   mb-1 change-color">
                     Terms & Conditions
                   </h6>
                   <ul className=" ulhover">
@@ -126,25 +126,19 @@ export default function Footer() {
               </MDBRow>
             </MDBCol>
             <MDBCol md="4" lg="4">
-           
-                <div class="d-flex align-items-center flex-column justify-content-center">
-                  <h3 className="text-uppercase change-color
-                  ">Get Support</h3>
+              <div class="d-flex align-items-end flex-column justify-content-center gap-5">
+                <div className="d-flex flex-column align-items-center">
+                  <h3 className="text-uppercase change-color">Get Support</h3>
                   <p className="salesoch">Sales@ochera.co.in</p>
-                  <div className="margincorrection">
-                    {" "}
-                    <image>
-                      {/*logo----------*/}
-                      <Link to="/">
-                        <img src="assets/images/image1.png" alt=""  class="img-fluid hover-footer"/>
-                      </Link>
-                    </image>
-                  </div>
                 </div>
-              </MDBCol>
+                <Link to="/">
+                  <img src="assets/images/image1.png" alt="" class="img-fluid hover-footer mt-3" />
+                </Link>
+              </div>
+            </MDBCol>
             {/* </MDBCol> */}
           </MDBRow>
-        </MDBContainer>
+        </div>
       </section>
 
       <div

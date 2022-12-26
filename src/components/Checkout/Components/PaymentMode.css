@@ -64,7 +64,7 @@ color: #000000;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     gap: 30px;
 }
 .checkbtn{
@@ -97,4 +97,10 @@ border: none;
     align-content: center;
     justify-content: center;
     align-items: center;
+    margin-top: 7px;
+}
+
+.otptxt{
+    font-weight: 600;
+font-size: 12px;
 }

@@ -27,15 +27,22 @@ gap: 24px;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.06em;
+color: #000000;
+}
+.home{
+    color: #606060;
 }
 .detailform{
     border: 1px solid #AEAEAE;
 border-radius: 4px;
 width: 424px;
 height: 48px;
-padding: 12px 360px 12px 16px;
+padding: 15px 200px 12px 16px;
 gap: 10px;
 display: flex;
+color: #525252;
+font-weight: 500;
+font-size: 14px;
 }
 .firstcon{
     display: flex;
@@ -55,8 +62,8 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding: 6px 8px 6px 16px;
 gap: 8px;
+padding: 4px 5px 5px 16px;
 }
 .icon{
     display: flex;
@@ -64,23 +71,31 @@ gap: 8px;
 }
 .addressbtn{
     display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 6px 174px;
-gap: 10px;
-width: 425px;
-height: 36px;
-background: #FF8E15;
-border-radius: 20px;
-border: none;
-color: white;
-font-weight: 500;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 160px;
+    /* gap: 10px; */
+    width: 425px;
+    height: 36px;
+    background: #FF8E15;
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+    /* color: white; */
+    font-weight: 500;
+    font-weight: 700;
+    font-size: 13px;
 }
 .PriceDetailsdet{
     width: 314px;
-height: 216px;
+height: 200px;
 margin: 0%;
-line-height: 32pxx;
+line-height: 32px;
+}
+@media screen and (max-width:800px) {
+    .PriceDetailsdet{
+        width: 100%;
+    }
 }
 .pricecontent{
     display: flex;
@@ -92,10 +107,11 @@ line-height: 32pxx;
 .totalprice{
     display: flex;
     gap: 150px;
+    margin-top: 10px;
 }
 .tottxt{
     font-weight: 700;
-font-size: 14px;
+font-size: 16px;
 line-height: 24px;
 color: #000000;
 }
@@ -117,5 +133,7 @@ color: #4FB500;
     gap: 63px;
     padding: 23px 10px;
     margin: 6%;
-
+}
+.blendtxt{
+    font-size: 14px;
 }

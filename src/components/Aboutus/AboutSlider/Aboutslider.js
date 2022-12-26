@@ -6,7 +6,7 @@ import './Aboutslider.css'
 function Aboutslider() {
   return (
 <>
-<div className='mainabout'>
+<div className='mainabout '>
   <div>
   <div className='contentaboutslide'>
     <h4 className='txtabout1'>Better Homes and a Better World</h4>

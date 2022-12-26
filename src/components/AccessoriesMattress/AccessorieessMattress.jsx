@@ -1,4 +1,5 @@
 import React from 'react'
+import { TouchableOpacityButton } from '../../DesignHelper/HelperComponents'
 import './AccessorieesMattress.css'
 
 function AccessorieessMattress() {
@@ -9,6 +10,7 @@ function AccessorieessMattress() {
         <div className='card1' id='img1'>
             <h3>Pillows</h3>
             <img src='assets/images/pillow.png' alt="img1" className='img-fluid'/>
+
             <button> SHOP NOW </button>
         </div>
 

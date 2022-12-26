@@ -1,15 +1,20 @@
 import React from "react";
 import styled from "styled-components";
+import { TouchableOpacityButton } from "../../../DesignHelper/HelperComponents";
 
 const Pay = () => {
   return (
     <GroupRootRootRoot>
       <FlexRow>
         <FlexColumn>
+         
           <Text1>PAYMENT MODE</Text1>
+          
           <Text2>Choose Payment</Text2>
         </FlexColumn>
+        <TouchableOpacityButton>
         <Button>EDIT ADDRESS</Button>
+        </TouchableOpacityButton>
       </FlexRow>
 
 
@@ -21,7 +26,9 @@ const Pay = () => {
                 <Container1 />
               </Container>
             </FlexColumn2>
+            <TouchableOpacityButton>
             <Markandan>Cash on Delivery</Markandan>
+            </TouchableOpacityButton>
           </FlexRow1>
         </FlexColumn2>
       </FlexColumn1>
@@ -35,7 +42,9 @@ const Pay = () => {
                 <Container1 />
               </Container>
             </FlexColumn2>
+            <TouchableOpacityButton>
             <Markandan>UPI</Markandan>
+            </TouchableOpacityButton>
           </FlexRow1>
         </FlexColumn2>
       </FlexColumn4>
@@ -49,7 +58,9 @@ const Pay = () => {
                 <Container1 />
               </Container>
             </FlexColumn2>
+            <TouchableOpacityButton>
             <Markandan>Credit/Debit Card</Markandan>
+            </TouchableOpacityButton>
           </FlexRow1>
         </FlexColumn2>
       </FlexColumn7>
@@ -63,7 +74,9 @@ const Pay = () => {
                 <Container1 />
               </Container>
             </FlexColumn2>
+            <TouchableOpacityButton>
             <Markandan>Netbanking</Markandan>
+            </TouchableOpacityButton>
           </FlexRow1>
         </FlexColumn2>
       </FlexColumn7>
@@ -126,8 +139,11 @@ const FlexRow = styled.div`
   justify-content: space-between;
   align-self: stretch;
   align-items: center;
-  margin: 0px 0px 22px 0px;
+  margin: 48px 0px 22px 0px;
   padding: 0px 1px 0px 0px;
+  @media screen and (max-width:800px) {
+    width: 100%;
+  }
 `;
 const FlexColumn = styled.div`
   width: 121px;
@@ -185,6 +201,10 @@ const FlexColumn1 = styled.div`
   border-style: solid;
   border-color: #c4c4c4;
   width: 461px;
+  @media screen and (max-width:700px) {
+    padding: 23px 197px 23px 13px;
+    width: 100%;
+  }
 `;
 const FlexColumn4 = styled.div`
   width: 461px;
@@ -199,6 +219,10 @@ const FlexColumn4 = styled.div`
   border-radius: 7px;
   border-style: solid;
   border-color: #c4c4c4;
+  @media screen and (max-width:700px) {
+    padding: 23px 197px 23px 13px;
+    width: 100%;
+  }
 `;
 const FlexColumn7 = styled.div`
   width: 461px;
@@ -213,6 +237,10 @@ const FlexColumn7 = styled.div`
   border-radius: 7px;
   border-style: solid;
   border-color: #c4c4c4;
+  @media screen and (max-width:700px) {
+    padding: 23px 197px 23px 13px;
+    width: 100%;
+  }
 `;
 const FlexColumn10 = styled.div`
   width: 461px;
@@ -227,4 +255,8 @@ const FlexColumn10 = styled.div`
   border-radius: 7px;
   border-style: solid;
   border-color: #c4c4c4;
+  @media screen and (max-width:700px) {
+    padding: 23px 197px 23px 13px;
+    width: 100%;
+  }
 `;

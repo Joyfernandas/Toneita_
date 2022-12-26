@@ -2,8 +2,9 @@
     width: 590px;
     position: absolute;
     z-index: 1;
-    left: 29%;
-    top: 109px;
+    left: 33%;
+    height: auto;
+    top: 86px;
 }
 
 .slide-animation-cus{

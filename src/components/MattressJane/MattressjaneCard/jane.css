@@ -15,6 +15,10 @@
       
     }
 }
+.hearti{
+    width: auto;
+    height: 18px;
+}
 
 
 .mainjane{
@@ -71,7 +75,7 @@ transition: 0.3s
     opacity: 1;
 }
 .jbtn{
-    width: 262px;
+    width: 250px;
     height: 56px;
   
     background: #FF8E15;
@@ -121,6 +125,7 @@ padding: 10px;
  
     display: flex;
     gap: 5px;
+    align-items: center;
 }
 .premiummattress{
 font-weight:600;
@@ -184,7 +189,7 @@ color: #000000;
     gap: 2px !important;
 }
 .jbtn{
-    width: 190px;
+    width: 174px;
 }
 .btnjane{
     width: 349px;

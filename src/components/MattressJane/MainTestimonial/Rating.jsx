@@ -17,28 +17,28 @@ const Data = [
     date: "01:20 PM - May 18, 2022",
   },
   {
-    id: 1,
+    id: 2,
     cusname: "janvi",
     content:
       "So excited to share this comment, premium mattress with more comfort. promotes better circulation of air while you sleep",
     date: "01:20 PM - May 18, 2022",
   },
   {
-    id: 1,
+    id: 3,
     cusname: "janvi",
     content:
       "So excited to share this comment, premium mattress with more comfort. promotes better circulation of air while you sleep",
     date: "01:20 PM - May 18, 2022",
   },
   {
-    id: 1,
+    id: 4,
     cusname: "janvi",
     content:
       "So excited to share this comment, premium mattress with more comfort. promotes better circulation of air while you sleep",
     date: "01:20 PM - May 18, 2022",
   },
   {
-    id: 1,
+    id: 5,
     cusname: "janvi",
     content:
       "So excited to share this comment, premium mattress with more comfort. promotes better circulation of air while you sleep",
@@ -186,6 +186,13 @@ function Rating() {
                   <div className="percent4"></div>
                   <h5>63</h5>
                 </div>
+                <div>
+          <select class="ui dropdow ratedrop">
+            <option value="">Material</option>
+            <option value="1">mattress</option>
+            <option value="0">..</option>
+          </select>
+        </div>
               </div>
             </div>
           </div>

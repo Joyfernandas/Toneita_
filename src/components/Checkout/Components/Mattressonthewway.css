@@ -6,3 +6,27 @@
     align-content: center;
     gap: 30px;
 }
+.orderview{
+    background: #F2F2F2;
+border-radius: 8px;
+background: #F2F2F2;
+border-radius: 8px;
+width: 131px;
+height: 40px;
+border: none;
+text-decoration: none;
+margin-top: -10px;
+}
+.onthewaytxt{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 24px;
+    color: #000000;
+    
+}
+.imgontheway{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}

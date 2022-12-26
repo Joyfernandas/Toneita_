@@ -10,7 +10,6 @@ import Stepper from "./components/Checkout/Components/Stepper";
 import Profilewithtonieta from "./components/Profilepage/components/Profilewithtonieta";
 import Wishlist from "./components/Wishlistpage/Wishlist";
 import MyOrder from "./components/MyOrderspage/MyOrder";
-import Go from "./components/stepper/Stepper";
 import Menu from "./components/Menus/Menu";
 import MyOrder2 from "./components/MyOrderspage/MyOrder2";
 import ContactDetails from "./components/Checkout/Components/ContactDetails";
