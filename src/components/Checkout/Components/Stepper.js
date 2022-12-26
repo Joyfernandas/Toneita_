@@ -3,18 +3,9 @@ import { useLocation } from "react-router";
 import styled from "styled-components";
 
 
-const Stepper = () => {
+const Stepper = (props) => {
  const location = useLocation();
-  useEffect(() => {
 
-    // if(location.pathname == '/'){
-    //   setatHidden(false)
-    // }else{
-    //  setatHidden(true)
-    // }
-
-
-  }, []);
 
   return (
     <MainStep className="mt-3">
@@ -25,7 +16,7 @@ const Stepper = () => {
             src={`https://file.rendit.io/n/WnRyrKEaowr8wLjRtHTw.svg`}
           />
         </InchWormFlexRow>
-        <NeonCarrotText>ADDRESS</NeonCarrotText>
+        <NeonCarrotText backcolor={props.middle == 3 ? 'green' : '#ff8e15'}>ADDRESS</NeonCarrotText>
         <WhiteText>PAYMENT</WhiteText>
       </CusWrapper>
     </MainStep>
@@ -100,7 +91,7 @@ const NeonCarrotText = styled.div`
   border-radius: 20px;
   border-style: solid;
   border-color: #ffffff;
-  background-color: #ff8e15;
+  background-color: ${props=> props.backcolor};
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.24);
   @media screen and (max-width:800px) {
     font-size: 10px;

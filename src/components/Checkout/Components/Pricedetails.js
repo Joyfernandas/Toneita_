@@ -1,19 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
+import { TouchableOpacityButton } from "../../../DesignHelper/HelperComponents";
 import Footer from "../../Footer/Footer";
 import Navbar from "../../navbar/Navbar";
 import CartDetails from "./Cart";
+import Mattressontheway from "./Mattressontheway";
+import Pay from "./Payment";
 import Stepper from "./Stepper";
 import { TouchableOpacityButton } from "../../../DesignHelper/HelperComponents";
 
 
- const Pricedetails = ({ }) => {
+const Pricedetails = ({ }) => {
+
+  const[state, setState] = useState(1);
+
+    const OnclickHandler = () =>{
+      setState(state+1);
+    }
+
+
   return (
     <>
       <Navbar />
-      <Stepper />
-      <div className="container">
-      <div className="d-flex flex-row flex-wrap justify-content-between align-items-center">
+      <Stepper middle={state}/>
+      <div className="container mt-5">
+        <div className="d-flex flex-row flex-wrap justify-content-between align-items-center ">
+       {state === 1 ? <CartDetailSec handler={OnclickHandler} /> : ''}
+       {state === 2 ?  <ContactForm handler={OnclickHandler} /> : ''}
+       {state === 3 ? <DeliveryAddressSec handler={OnclickHandler} /> : ''}
+       {state === 4 ? <PaymentMode handler={OnclickHandler} />: ''}
+       {state === 5 ?  <Mattressontheway handler={OnclickHandler} /> : ''}
+
+        </div>
+
+      </div>
+      <Footer />
+    </>
+  );
+};
 
       <CartDetails />
        
@@ -39,17 +63,18 @@ import { TouchableOpacityButton } from "../../../DesignHelper/HelperComponents";
           <Text3>₹50,600</Text3>
         </FlexRow3>
         <NeonCarrotFlexColumn>
-    <TouchableOpacityButton>
           <Text9>CONTINUE</Text9>
-          </TouchableOpacityButton>
         </NeonCarrotFlexColumn>
       </FrameRootRootRoot>
       </div>
+
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
+
+
 
 export default Pricedetails;
 
