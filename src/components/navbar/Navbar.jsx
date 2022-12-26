@@ -125,8 +125,8 @@ const SearchBar = () => {
         </div>
         <div className="offcanvas-body">
           <div className="input-group mb-3 px-8">
-            <input type="text" className="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2" />
-            <button className="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+            <input type="text" className="form-control" placeholder="Search Here" aria-label="Recipient's username" aria-describedby="button-addon2" />
+            <button className="btn btn-outline-secondary" type="button" id="button-addon2">Explore</button>
           </div>
         </div>
       </div>
@@ -169,7 +169,10 @@ export const NavMenu = () => {
     <>
       <MobileMenu>
         {NavData.map((item) => (
-          <MobileMenuLink key={item.id}>{item.name}</MobileMenuLink>
+          <Link to={item.to}>
+
+            <MobileMenuLink key={item.id}>{item.name}</MobileMenuLink>
+          </Link>
         ))}
         <MobileMenuLink><DropDownMenu /></MobileMenuLink>
       </MobileMenu>

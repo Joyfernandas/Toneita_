@@ -46,7 +46,7 @@
     width: 137px;
     height: 22px;
     border: none;
-    margin-left: 0%;
+    margin-left: 4% !important;
     }
   }
   @media screen and (min-width:600px) {
@@ -138,8 +138,11 @@ height: 30px;
 }
 .mainrating{
     display: flex;
-    flex-direction: column;
     gap: 22px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 /* .sliderrate{
     width: 100%;

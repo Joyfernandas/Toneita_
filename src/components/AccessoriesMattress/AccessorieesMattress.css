@@ -7,10 +7,14 @@
 }
 
 .card1{
-    height: 390px;
-    width: 280px;
+    height: auto;
+    width: 310px;
     margin: 10px;
     border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction:column ;
 
 }
 

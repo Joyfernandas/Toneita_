@@ -2,10 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import { HeartOutline } from "styled-icons/evaicons-outline";
 import { TouchableOpacityButton } from "../DesignHelper/HelperComponents";
+import {Link} from 'react-router-dom'
+
 
 const MattresCardComponent = (props) => {
     return (
         <MattressCardWrapper>
+          <Link to='/jane'>
             <FlexRow style={{ backgroundImage: 'url(' + props.img + ')' }}>
                 {props.launch === '' ? '.' :
                     <NeonCarrotFlexColumn>
@@ -35,6 +38,7 @@ const MattresCardComponent = (props) => {
                     <Text8>Rs.33.678</Text8>
                 </FlexRow3>
             </WhiteFlexColumn>
+            </Link>
         </MattressCardWrapper>
     );
 };

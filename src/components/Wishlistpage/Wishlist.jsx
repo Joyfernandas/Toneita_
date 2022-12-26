@@ -52,9 +52,9 @@ function Wishlist(item) {
         <>
             <Navbar />
             <div className='container-fluid my-5'> 
-<div className='wishwish'>
+<div className='wishwish align-items-center'>
 <h5 className='wishtxt'>Wishlist</h5>
-<img src="assets/images/heartwish.png" alt="" />
+<img src="assets/images/heartwish1.png" alt="" />
 </div>
             <div className='d-flex gap-5 flex-wrap col-sm align-items-center col-md align-items-center'>
 
@@ -72,9 +72,10 @@ function Wishlist(item) {
                 />
             )
             )}
+            
             </div>
+            <Paginate/>
             </div>
-            <Paginate />
             <Footer />
         </>
     )

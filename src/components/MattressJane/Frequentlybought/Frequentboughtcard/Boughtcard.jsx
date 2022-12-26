@@ -35,7 +35,7 @@ function Boughtcard(item) {
              
                <div className="display"> 
                <div>  <p class="text-muted mb-0 font-size-fix">
-                 {item.price} <span class="fw-bold"> <del>  {item.price}</del></span>
+               <span class="fw-bold">  {item.price} </span> <del>  {item.price}</del>
                </p> </div>
                <div className='arrbtn'><button type="button" class="offerbtn font-size-fix">(10% Offer)</button></div>
                 

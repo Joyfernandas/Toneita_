@@ -61,7 +61,8 @@ const RectangleRootRootRoot = styled.div`
   width: 100vw;
   display: flex;
   gap: 15px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  overflow: scroll;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;

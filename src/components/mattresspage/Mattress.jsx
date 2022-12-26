@@ -31,7 +31,7 @@ const Data = [
     img: "assets/images/mattressbed2.jpg",
     title: 'Mattress Jane',
     rating: 4.4,
-    launch: '.',
+    launch: '',
     price: 34000,
   }, {
     id: 3,
@@ -127,7 +127,10 @@ function Mattress() {
       <Navbar />
       <BreadcrumbExample />
       <div className='herodiv'><h1 className='herotx'>Toneita Mattress</h1>
-        <Filter /><h4 className='found-items'> 17 items found</h4></div>
+      <div className="d-flex justify-content-between align-items-center">
+      <h4 className='found-items'> 17 items found</h4><Filter />
+      </div>
+        </div>
       <div className='card-container'>
         {Data.map((props) => {
           return (

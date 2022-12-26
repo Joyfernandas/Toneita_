@@ -104,7 +104,7 @@ function Sellerscart() {
         breakpoint: 800,
         settings: {
           slidesToShow: 2,
-          centerMode:false,
+          centerMode:true,
           slidesToScroll: 1,
           initialSlide: 3
         }

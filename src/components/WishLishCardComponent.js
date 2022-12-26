@@ -32,6 +32,7 @@ import { TouchableOpacityButton } from "../DesignHelper/HelperComponents";
         </TouchableOpacityButton>
       </NeonCarrotFlexColumn>
     </WishListCardWrapper>
+    
   );
 };
 export default WishListCardComponent;

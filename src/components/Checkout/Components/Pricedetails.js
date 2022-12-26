@@ -4,6 +4,7 @@ import Footer from "../../Footer/Footer";
 import Navbar from "../../navbar/Navbar";
 import CartDetails from "./Cart";
 import Stepper from "./Stepper";
+import { TouchableOpacityButton } from "../../../DesignHelper/HelperComponents";
 
 
  const Pricedetails = ({ }) => {
@@ -38,11 +39,12 @@ import Stepper from "./Stepper";
           <Text3>₹50,600</Text3>
         </FlexRow3>
         <NeonCarrotFlexColumn>
+    <TouchableOpacityButton>
           <Text9>CONTINUE</Text9>
+          </TouchableOpacityButton>
         </NeonCarrotFlexColumn>
       </FrameRootRootRoot>
       </div>
-
       </div>
       <Footer />
     </>

@@ -7,14 +7,14 @@ import Boughtcard from './Frequentboughtcard/Boughtcard';
 const Data=[{
     id:1, 
     img:("assets/images/pill1.png"),
-    heading:'Tonietas Pillows',
+    heading:'Toneitas Pillows',
     rating:4.4,
   price:('₹741')
 },
 {
     id:2, 
     img:("assets/images/pill2.png"),
-    heading:'Tonietas Pillows',
+    heading:'Toneitas Pillows',
     rating:4.4,
     price:('₹741')
    

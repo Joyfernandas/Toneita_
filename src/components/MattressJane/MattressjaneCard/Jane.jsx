@@ -27,7 +27,7 @@ function Jane() {
 <div className='for-reponsive'>
     <div className='margin'>
 
-        <div className='head1'><h1 className='txtj'>Mattres Jane</h1>
+        <div className='head1'><h1 className='txtj'>Mattress Jane</h1>
         <div className='icons'><h2>< AiOutlineShareAlt /></h2>
         <img src="assets/images/hearti.png" alt=""  className='hearti'/></div>
         

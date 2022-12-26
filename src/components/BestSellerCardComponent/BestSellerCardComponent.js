@@ -59,6 +59,7 @@ const CardWrapper = styled.div`
   align-items: center;
   justify-content: center;
   border-radius: 15px;
+  gap:10px;
 
   &:hover{
 
